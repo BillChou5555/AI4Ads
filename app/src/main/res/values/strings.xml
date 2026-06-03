@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AI4Ads</string>
+    <string name="tab_featured">精选</string>
+    <string name="tab_ecommerce">电商</string>
+    <string name="tab_local">本地</string>
+    <string name="search_hint">搜索你感兴趣的广告</string>
 </resources>

@@ -2,4 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gray_secondary">#999999</color>
+    <color name="tab_indicator">#FF6200EE</color>
 </resources>

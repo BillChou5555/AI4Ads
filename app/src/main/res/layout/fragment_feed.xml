@@ -1,12 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<!--
+    FeedFragment 的布局：顶部 Tab 导航栏 + ViewPager2 内容区。
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="AI4Ads Feed"
-        android:textSize="18sp" />
-</FrameLayout>
+    关键设计：
+    - TabLayout 放在 FeedFragment（非 MainActivity），跳转搜索/详情时自然隐藏
+    - 搜索按钮使用 selectableItemBackground（非 borderless），涟漪不超出按钮边界
+    - 导航栏下方用 View 做阴影分隔线（非 elevation），避免 RenderNode 裁剪
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <!-- 顶部导航栏 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:tabMode="fixed"
+            app:tabGravity="fill"
+            app:tabIndicatorColor="@color/tab_indicator"
+            app:tabIndicatorHeight="3dp"
+            app:tabSelectedTextColor="@color/tab_indicator"
+            app:tabTextColor="@color/gray_secondary" />
+
+        <ImageView
+            android:id="@+id/btnSearch"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_search"
+            android:contentDescription="@string/search_hint"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="center" />
+    </LinearLayout>
+
+    <!-- 导航栏底部分隔线（替代 elevation，避免 RenderNode 裁剪） -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_secondary"
+        android:alpha="0.2" />
+
+    <!-- 页面容器 -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

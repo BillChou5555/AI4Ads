@@ -4,8 +4,35 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/feedFragment">
 
+    <!--
+        Feed 主页 — 包含顶部 Tab 导航 + ViewPager2 + 信息流列表。
+        搜索按钮和详情页跳转都会从这里发起。
+    -->
     <fragment
         android:id="@+id/feedFragment"
         android:name="com.aiads.ui.feed.FeedFragment"
         android:label="Feed" />
+
+    <!--
+        SearchFragment — 搜索页（M13 实现）。
+        暂为占位，确保导航图和 FeedFragment 可以直接引用对应的 action。
+    -->
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.aiads.ui.search.SearchFragment"
+        android:label="搜索" />
+
+    <!--
+        DetailFragment — 详情页（M8 实现）。
+        接收 adId 参数，通过 Navigation Argument 从 Feed 或搜索页传入。
+    -->
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.aiads.ui.detail.DetailFragment"
+        android:label="详情">
+        <argument
+            android:name="adId"
+            app:argType="string" />
+    </fragment>
+
 </navigation>
