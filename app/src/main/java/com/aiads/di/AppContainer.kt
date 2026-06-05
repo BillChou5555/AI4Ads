@@ -8,6 +8,7 @@ import com.aiads.data.remote.AnalyticsApi
 import com.aiads.data.remote.DeviceIdInterceptor
 import com.aiads.data.remote.SearchApi
 import com.aiads.util.DeviceIdProvider
+import com.aiads.data.repository.FeedRepository
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
@@ -66,4 +67,10 @@ class AppContainer(private val context: Context) {
     // ==================== 本地数据库 ====================
 
     val database: DatabaseHelper by lazy { DatabaseHelper(context) }
+
+    // ==================== Repository ====================
+
+    val feedRepository: FeedRepository by lazy {
+        FeedRepository(adApi)
+    }
 }

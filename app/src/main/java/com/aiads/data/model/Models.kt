@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName
  * @SerializedName 将 JSON 的 snake_case 字段映射到 Kotlin 的 camelCase 属性。
  */
 data class Ad(
-    @SerializedName("ad_id") val adId: String,
+    @SerializedName("id") val adId: String,
     @SerializedName("title") val title: String,
     @SerializedName("provider") val provider: String,
     @SerializedName("ad_text") val adText: String,
@@ -34,8 +34,7 @@ data class AdTag(
  */
 data class FeedResponse(
     @SerializedName("items") val items: List<Ad>,
-    @SerializedName("cursor") val cursor: String?,
-    @SerializedName("has_more") val hasMore: Boolean
+    @SerializedName("next_cursor") val cursor: String?
 )
 
 /**
