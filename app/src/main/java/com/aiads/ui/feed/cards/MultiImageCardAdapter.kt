@@ -1,6 +1,7 @@
 package com.aiads.ui.feed.cards
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
@@ -9,6 +10,7 @@ import androidx.recyclerview.widget.ListAdapter
 import com.aiads.R
 import com.aiads.data.local.DatabaseHelper
 import com.aiads.data.model.Ad
+import com.bumptech.glide.Glide
 
 class MultiImageCardAdapter(
     private val onCardClick: (Ad) -> Unit,
@@ -44,14 +46,21 @@ class MultiImageCardAdapter(
         private val tvMoreCount: TextView = itemView.findViewById(R.id.tvMoreCount)
 
         override fun bindMedia(ad: Ad) {
-            // M6 将替换为 Glide 加载前 3 张图
-            // 超过 3 张时显示 "+N"
-            val totalImages = ad.adImages.size
-            if (totalImages > 3) {
-                tvMoreCount.visibility = android.view.View.VISIBLE
-                tvMoreCount.text = "+${totalImages - 3}"
+            val images = ad.adImages
+            val imageViews = listOf(ivImage1, ivImage2, ivImage3)
+            for (i in imageViews.indices) {
+                if (i < images.size) {
+                    Glide.with(imageViews[i].context)
+                        .load(images[i])
+                        .into(imageViews[i])
+                }
+            }
+            // 超出 3 张时显示 "+N"
+            if (images.size > 3) {
+                tvMoreCount.visibility = View.VISIBLE
+                tvMoreCount.text = "+${images.size - 3}"
             } else {
-                tvMoreCount.visibility = android.view.View.GONE
+                tvMoreCount.visibility = View.GONE
             }
         }
     }

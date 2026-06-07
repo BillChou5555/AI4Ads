@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.aiads.R
 import com.aiads.data.local.DatabaseHelper
 import com.aiads.data.model.Ad
+import com.bumptech.glide.Glide
 
 /**
  * 大图卡片 Adapter。
@@ -49,8 +50,11 @@ class LargeImageCardAdapter(
         private val ivMedia: ImageView = itemView.findViewById(R.id.ivMedia)
 
         override fun bindMedia(ad: Ad) {
-            // M6 将替换为 Glide 加载：Glide.with(ivMedia).load(ad.adImages.first()).into(ivMedia)
-            // M3 阶段仅占位，确认布局正确
+            if (ad.adImages.isNotEmpty()){
+                Glide.with(ivMedia.context)
+                    .load(ad.adImages[0])
+                    .into(ivMedia)
+            }
         }
     }
 

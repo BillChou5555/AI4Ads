@@ -21,6 +21,14 @@
             android:layout_height="220dp"
             android:background="@android:color/darker_gray">
 
+            <!-- M4 新增：放在最底层，视频播放时覆盖封面 -->
+            <androidx.media3.ui.PlayerView
+                android:id="@+id/playerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:use_controller="false"
+                app:surface_type="texture_view" />
+
             <ImageView
                 android:id="@+id/ivVideoCover"
                 android:layout_width="match_parent"

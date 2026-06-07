@@ -17,6 +17,8 @@ import com.aiads.R
 import com.aiads.data.model.Ad
 import com.aiads.data.repository.FeedRepository
 import com.aiads.di.AppContainer
+import com.aiads.player.PlaybackManager
+import com.aiads.player.PlayerPool
 
 /**
  * 单个 Tab 页面的内容 Fragment，作为 ViewPager2 的子页面。
@@ -45,6 +47,8 @@ class FeedTabFragment : Fragment() {
         arguments?.getString(ARG_TAB) ?: "featured"
     }
     private val appContainer: AppContainer by lazy { (requireActivity().application as com.aiads.App).container }
+    private val playerPool: PlayerPool by lazy { appContainer.playerPool }
+    private lateinit var playbackManager: PlaybackManager
     private val repository: FeedRepository by lazy {appContainer.feedRepository}
 
     /**
@@ -80,6 +84,27 @@ class FeedTabFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_feed_tab, container, false)
     }
 
+    override fun onResume() {
+        super.onResume()
+        if (::playbackManager.isInitialized) {
+            playbackManager.attach()    // 重新注册滚动监听
+            playbackManager.evaluate()  // 立即评估播放
+        }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        if (::playbackManager.isInitialized) {
+            playbackManager.detach()
+        }
+    }
+    override fun onDestroyView() {
+        super.onDestroyView()
+        if (::playbackManager.isInitialized) {
+            playbackManager.destroy()       // 彻底清理
+        }
+    }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -105,6 +130,8 @@ class FeedTabFragment : Fragment() {
 
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
         recyclerView.adapter = feedAdapter.concatAdapter
+        playbackManager = PlaybackManager(playerPool, recyclerView)
+        playbackManager.attach()
     }
     // ==================== 下拉刷新 ====================
 
@@ -142,6 +169,7 @@ class FeedTabFragment : Fragment() {
         // 数据变化 → 更新列表
         viewModel.ads.observe(viewLifecycleOwner) { ads ->
             feedAdapter.submitList(ads, emptyMap())  // M5 替换为真实交互状态
+            recyclerView.post { playbackManager.evaluate() }
         }
 
         // 刷新状态 → 控制下拉动画

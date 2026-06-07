@@ -1,6 +1,7 @@
 package com.aiads.ui.feed.cards
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.DiffUtil
@@ -8,6 +9,9 @@ import androidx.recyclerview.widget.ListAdapter
 import com.aiads.R
 import com.aiads.data.local.DatabaseHelper
 import com.aiads.data.model.Ad
+import com.bumptech.glide.Glide
+import androidx.media3.common.MediaItem
+import androidx.media3.exoplayer.ExoPlayer
 
 class VideoCardAdapter(
     private val onCardClick: (Ad) -> Unit,
@@ -37,19 +41,42 @@ class VideoCardAdapter(
     }
 
     class ViewHolder(itemView: android.view.View) : BaseCardViewHolder(itemView) {
+        private var currentAd: Ad? = null
         private val ivVideoCover: ImageView = itemView.findViewById(R.id.ivVideoCover)
         private val ivMuteIcon: ImageView = itemView.findViewById(R.id.ivMuteIcon)
         private val ivPlayIcon: ImageView = itemView.findViewById(R.id.ivPlayIcon)
 
         override fun bindMedia(ad: Ad) {
-            // M4 将替换为 ExoPlayer PlayerView
-            // M3 阶段：显示加载封面图 + 播放/静音图标
-            // 静音图标默认可见（Feed 流视频自动静音）
-            ivMuteIcon.visibility = android.view.View.VISIBLE
-            ivPlayIcon.visibility = android.view.View.VISIBLE
-            // M6 将替换为 Glide 加载 ad.adImages.first() 作为封面
+            currentAd = ad
+            // M6: 加载视频封面图
+            if (ad.adImages.isNotEmpty()) {
+                Glide.with(ivVideoCover.context)
+                    .load(ad.adImages[0])
+                    .into(ivVideoCover)
+            }
         }
+        fun attachPlayer(player: ExoPlayer) {
+            val videoUrl = currentAd?.adVideoUrl ?: return
+            val playerView = itemView.findViewById<androidx.media3.ui.PlayerView>(R.id.playerView)
+            playerView.player = player
+            player.setMediaItem(MediaItem.fromUri(videoUrl))
+            player.prepare()
+            ivVideoCover.visibility = View.GONE  // 隐藏封面
+            ivPlayIcon.visibility = View.GONE        // 隐藏播放按钮
+            ivMuteIcon.visibility = View.VISIBLE     // 显示静音图标
+        }
+
+        fun detachPlayer() {
+            val playerView = itemView.findViewById<androidx.media3.ui.PlayerView>(R.id.playerView)
+            playerView.player = null
+            ivVideoCover.visibility = View.VISIBLE  // 恢复封面
+            ivPlayIcon.visibility = View.VISIBLE
+            ivMuteIcon.visibility = View.GONE
+        }
+
     }
+
+
 
     companion object DiffCallback : DiffUtil.ItemCallback<Ad>() {
         override fun areItemsTheSame(oldItem: Ad, newItem: Ad): Boolean =

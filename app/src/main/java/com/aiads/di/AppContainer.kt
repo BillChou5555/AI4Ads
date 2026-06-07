@@ -1,5 +1,5 @@
 package com.aiads.di
-
+import com.aiads.util.EmulatorDetector
 import android.content.Context
 import com.aiads.BuildConfig
 import com.aiads.data.local.DatabaseHelper
@@ -14,6 +14,7 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
+import com.aiads.player.PlayerPool
 
 /**
  * 手动依赖注入容器。
@@ -49,10 +50,14 @@ class AppContainer(private val context: Context) {
             .readTimeout(30, TimeUnit.SECONDS)
             .build()
     }
-
+    val baseUrl = if (EmulatorDetector.isEmulator()) {
+        BuildConfig.BASE_URL        // http://10.0.2.2:8000/
+    } else {
+        BuildConfig.HOST_URL        // http://192.168.x.x:8000/
+    }
     val retrofit: Retrofit by lazy {
         Retrofit.Builder()
-            .baseUrl(BuildConfig.BASE_URL)
+            .baseUrl(baseUrl)
             .client(okHttpClient)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
@@ -72,5 +77,8 @@ class AppContainer(private val context: Context) {
 
     val feedRepository: FeedRepository by lazy {
         FeedRepository(adApi)
+    }
+    val playerPool: PlayerPool by lazy {
+        PlayerPool(context, maxSize = 3)
     }
 }
