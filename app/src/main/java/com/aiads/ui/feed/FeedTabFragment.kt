@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModel
@@ -21,6 +22,9 @@ import com.aiads.player.PlaybackManager
 import com.aiads.player.PlayerPool
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.launch
+import androidx.cardview.widget.CardView
+import com.google.android.material.chip.Chip
+
 
 /**
  * 单个 Tab 页面的内容 Fragment，作为 ViewPager2 的子页面。
@@ -188,8 +192,28 @@ class FeedTabFragment : Fragment() {
         }
 
         // 标签选中状态
+        val filterBar = requireView().findViewById<androidx.cardview.widget.CardView>(R.id.filterBar)
+        val chipGroupFilter = requireView().findViewById<com.google.android.material.chip.ChipGroup>(R.id.chipGroupFilter)
+        val tvClearAll = requireView().findViewById<TextView>(R.id.tvClearAll)
+
+        tvClearAll.setOnClickListener { viewModel.clearFilter() }
         viewLifecycleOwner.lifecycleScope.launch {
             viewModel.activeFilterTags.collect { tags ->
+                if (tags.isEmpty()) {
+                    filterBar.visibility = View.GONE
+                } else {
+                    filterBar.visibility = View.VISIBLE
+                    chipGroupFilter.removeAllViews()
+                    for (tag in tags) {
+                        val chip =
+                            Chip(chipGroupFilter.context).apply{
+                            text = tag
+                            isCloseIconVisible = true
+                            setOnCloseIconClickListener { viewModel.toggleFilterTag(tag) }
+                        }
+                        chipGroupFilter.addView(chip)
+                    }
+                }
                 feedAdapter.updateFilterTags(tags)
             }
         }
