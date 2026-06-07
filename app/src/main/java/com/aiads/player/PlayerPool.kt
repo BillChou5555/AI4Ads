@@ -17,7 +17,6 @@ class PlayerPool(private val context: Context, private val maxSize: Int = 3) {
                 totalCreated++
                 ExoPlayer.Builder(context).build().apply {
                     volume = 0f
-                    repeatMode = Player.REPEAT_MODE_ALL
                 }
             }
             else -> {
@@ -27,6 +26,8 @@ class PlayerPool(private val context: Context, private val maxSize: Int = 3) {
                 oldest
             }
         }
+        player.volume = 0f  // 所有出口统一重置静音
+        player.repeatMode = Player.REPEAT_MODE_ALL
         busyPlayers.add(player)
         return player
     }

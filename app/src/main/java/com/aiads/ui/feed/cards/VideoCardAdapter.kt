@@ -49,6 +49,20 @@ class VideoCardAdapter(
         private val ivMuteIcon: ImageView = itemView.findViewById(R.id.ivMuteIcon)
         private val ivPlayIcon: ImageView = itemView.findViewById(R.id.ivPlayIcon)
 
+        init {
+            ivMuteIcon.setOnClickListener {
+                val playerView = itemView.findViewById<androidx.media3.ui.PlayerView>(R.id.playerView)
+                val player = playerView.player ?: return@setOnClickListener
+                if (player.volume > 0f) {
+                    player.volume = 0f
+                    ivMuteIcon.setImageResource(android.R.drawable.ic_lock_silent_mode_off)
+                } else {
+                    player.volume = 1.0f
+                    ivMuteIcon.setImageResource(android.R.drawable.ic_lock_silent_mode)
+                }
+            }
+        }
+
         override fun bindMedia(ad: Ad) {
             currentAd = ad
             // M6: 加载视频封面图

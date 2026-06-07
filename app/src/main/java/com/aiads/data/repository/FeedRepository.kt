@@ -16,7 +16,8 @@ import com.aiads.data.remote.AdApi
  * 因为调用方需要 cursor（下一页游标）和 hasMore（是否还有更多），
  * 这些是分页控制信息，不是广告数据本身。返回 FeedResponse 完整保留。
  */
-class FeedRepository(private val adApi: AdApi) {
+class FeedRepository(private val adApi: AdApi,
+                     private val adCache: MutableMap<String, Ad>) {
 
     /**
      * 获取指定 Tab 的一页 Feed 数据。
@@ -30,6 +31,9 @@ class FeedRepository(private val adApi: AdApi) {
         size: Int = 20,
         cursor: String? = null
     ): FeedResponse {
-        return adApi.getFeed(tab = tab, size = size, cursor = cursor)
+        val response = adApi.getFeed(tab = tab, size = size, cursor = cursor)
+        // 将返回的每条广告放入共享缓存
+        response.items.forEach { ad -> adCache[ad.adId] = ad }
+        return response
     }
 }

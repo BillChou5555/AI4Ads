@@ -222,6 +222,7 @@ class FeedTabFragment : Fragment() {
     // ==================== 导航 ====================
 
     private fun navigateToDetail(ad: Ad) {
-        // M8 实现详情页跳转：findNavController().navigate(...)
+        val bundle = Bundle().apply { putString("adId", ad.adId) }
+        findNavController().navigate(R.id.action_to_detail, bundle)
     }
 }

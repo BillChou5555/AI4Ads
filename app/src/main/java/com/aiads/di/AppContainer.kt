@@ -3,6 +3,7 @@ import com.aiads.util.EmulatorDetector
 import android.content.Context
 import com.aiads.BuildConfig
 import com.aiads.data.local.DatabaseHelper
+import com.aiads.data.model.Ad
 import com.aiads.data.remote.AdApi
 import com.aiads.data.remote.AnalyticsApi
 import com.aiads.data.remote.DeviceIdInterceptor
@@ -73,10 +74,16 @@ class AppContainer(private val context: Context) {
 
     val database: DatabaseHelper by lazy { DatabaseHelper(context) }
 
+    // ==================== cache ====================
+    /** 广告内存缓存，以 adId 为键。
+     * FeedRepository 在加载 Feed 时会自动填充，
+     * DetailFragment 通过 adId 从中取出完整 Ad 对象。 */
+    val adCache = mutableMapOf<String, Ad>()
+
     // ==================== Repository ====================
 
     val feedRepository: FeedRepository by lazy {
-        FeedRepository(adApi)
+        FeedRepository(adApi, adCache)
     }
     val playerPool: PlayerPool by lazy {
         PlayerPool(context, maxSize = 3)
