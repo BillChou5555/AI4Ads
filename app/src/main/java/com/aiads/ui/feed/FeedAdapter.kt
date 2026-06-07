@@ -39,6 +39,15 @@ class FeedAdapter(
     val concatAdapter = ConcatAdapter(
         videoAdapter, largeImageAdapter, multiImageAdapter, textOnlyAdapter
     )
+    var activeFilterTags: Set<String> = emptySet()
+
+    fun updateFilterTags(tags: Set<String>) {
+        videoAdapter.activeFilterTags = tags
+        largeImageAdapter.activeFilterTags = tags
+        multiImageAdapter.activeFilterTags = tags
+        textOnlyAdapter.activeFilterTags = tags
+        concatAdapter.notifyDataSetChanged()
+    }
 
     /**
      * 提交新数据列表。
@@ -47,6 +56,11 @@ class FeedAdapter(
      * @param interactionMap 当前交互状态映射，每次 submit 时注入，确保子 Adapter 拿到的是最新数据
      */
     fun submitList(ads: List<Ad>, interactionMap: Map<String, DatabaseHelper.InteractionState>) {
+        videoAdapter.activeFilterTags = activeFilterTags
+        largeImageAdapter.activeFilterTags = activeFilterTags
+        multiImageAdapter.activeFilterTags = activeFilterTags
+        textOnlyAdapter.activeFilterTags = activeFilterTags
+
         videoAdapter.interactionMap = interactionMap
         largeImageAdapter.interactionMap = interactionMap
         multiImageAdapter.interactionMap = interactionMap

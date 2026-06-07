@@ -21,6 +21,8 @@ class VideoCardAdapter(
     private val onShareClick: (Ad) -> Unit
 ) : ListAdapter<Ad, VideoCardAdapter.ViewHolder>(DiffCallback) {
     var interactionMap: Map<String, DatabaseHelper.InteractionState> = emptyMap()
+    var activeFilterTags: Set<String> = emptySet()
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.item_card_video, parent, false)
@@ -32,6 +34,7 @@ class VideoCardAdapter(
         holder.bind(
             ad = ad,
             interaction = interactionMap[ad.adId],
+            activeFilterTags = activeFilterTags,
             onCardClick = onCardClick,
             onTagClick = onTagClick,
             onLikeClick = onLikeClick,

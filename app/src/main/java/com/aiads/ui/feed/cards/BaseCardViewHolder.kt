@@ -40,12 +40,14 @@ abstract class BaseCardViewHolder(itemView: View) : RecyclerView.ViewHolder(item
      *
      * @param ad          广告数据
      * @param interaction 用户交互状态（点赞/收藏），可能为 null
+     * @param activeFilterTags 已选中标签
      * @param onCardClick 卡片点击回调
      * @param onTagClick  标签点击回调
      */
     fun bind(
         ad: Ad,
         interaction: DatabaseHelper.InteractionState?,
+        activeFilterTags: Set<String> = emptySet(),
         onCardClick: (Ad) -> Unit,
         onTagClick: (String) -> Unit,
         onLikeClick: (Ad) -> Unit,
@@ -64,7 +66,7 @@ abstract class BaseCardViewHolder(itemView: View) : RecyclerView.ViewHolder(item
         }
 
         // 标签 Chips
-        bindTags(ad.aiTags, onTagClick)
+        bindTags(ad.aiTags, activeFilterTags, onTagClick)
 
         // 操作按钮状态
         btnLike.isSelected = interaction?.isLiked == true
@@ -92,12 +94,13 @@ abstract class BaseCardViewHolder(itemView: View) : RecyclerView.ViewHolder(item
      * Chip 只在有数据时创建——空标签列表时 ChipGroup 为空，不占空间。
      * M3 使用默认样式的 Chip，M7 会替换为自定义颜色对应不同品类。
      */
-    private fun bindTags(tags: List<AdTag>, onTagClick: (String) -> Unit) {
+    private fun bindTags(tags: List<AdTag>, activeFilterTags: Set<String>, onTagClick: (String) -> Unit) {
         chipGroup.removeAllViews()
         for (tag in tags) {
             val chip = Chip(chipGroup.context).apply {
                 text = "[${tag.category}] ${tag.value}"
-                isCheckable = false
+                isCheckable = true                                    // 允许选中
+                isChecked = tag.value in activeFilterTags             // 同步选中态
                 setOnClickListener { onTagClick(tag.value) }
             }
             chipGroup.addView(chip)

@@ -19,6 +19,8 @@ import com.aiads.data.repository.FeedRepository
 import com.aiads.di.AppContainer
 import com.aiads.player.PlaybackManager
 import com.aiads.player.PlayerPool
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.launch
 
 /**
  * 单个 Tab 页面的内容 Fragment，作为 ViewPager2 的子页面。
@@ -182,6 +184,13 @@ class FeedTabFragment : Fragment() {
             error?.let {
                 android.widget.Toast.makeText(requireContext(), it,
                     android.widget.Toast.LENGTH_SHORT).show()
+            }
+        }
+
+        // 标签选中状态
+        viewLifecycleOwner.lifecycleScope.launch {
+            viewModel.activeFilterTags.collect { tags ->
+                feedAdapter.updateFilterTags(tags)
             }
         }
     }

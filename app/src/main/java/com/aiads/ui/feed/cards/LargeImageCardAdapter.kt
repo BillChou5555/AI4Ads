@@ -26,6 +26,7 @@ class LargeImageCardAdapter(
     private val onShareClick: (Ad) -> Unit
 ) : ListAdapter<Ad, LargeImageCardAdapter.ViewHolder>(DiffCallback) {
     var interactionMap: Map<String, DatabaseHelper.InteractionState> = emptyMap()
+    var activeFilterTags: Set<String> = emptySet()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
@@ -38,6 +39,7 @@ class LargeImageCardAdapter(
         holder.bind(
             ad = ad,
             interaction = interactionMap[ad.adId],
+            activeFilterTags = activeFilterTags,
             onCardClick = onCardClick,
             onTagClick = onTagClick,
             onLikeClick = onLikeClick,
