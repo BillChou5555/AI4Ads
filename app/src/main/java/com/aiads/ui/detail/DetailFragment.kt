@@ -25,7 +25,11 @@ import com.google.android.material.tabs.TabLayoutMediator
 import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.recyclerview.widget.RecyclerView
-
+import android.view.animation.AnimationUtils
+import com.aiads.data.local.DatabaseHelper
+import com.aiads.data.repository.InteractionRepository
+import androidx.lifecycle.lifecycleScope
+import kotlinx.coroutines.launch
 
 /**
  * 详情页 — M8 将完整实现。
@@ -40,6 +44,8 @@ class DetailFragment : Fragment() {
         (requireActivity().application as App).container
     }
     private val playerPool: PlayerPool by lazy { appContainer.playerPool }
+    private val interactionRepository: InteractionRepository by lazy {
+        appContainer.interactionRepository }
 
     // ===== ViewModel =====
     private val viewModel: DetailViewModel by viewModels {
@@ -61,6 +67,15 @@ class DetailFragment : Fragment() {
     private lateinit var tvAiSummary: TextView
     private lateinit var tvAdText: TextView
     private lateinit var chipGroupTags: com.google.android.material.chip.ChipGroup
+    private lateinit var btnLike: View
+    private lateinit var ivLikeIcon: ImageView
+    private lateinit var tvLikeCount: TextView
+    private lateinit var btnBookmark: View
+    private lateinit var ivBookmarkIcon: ImageView
+    private lateinit var tvBookmarkCount: TextView
+    private lateinit var btnShare: View
+    private lateinit var ivShareIcon: ImageView
+    private lateinit var tvShareCount: TextView
 
     // ===== Fragment =====
     override fun onCreateView(
@@ -93,6 +108,36 @@ class DetailFragment : Fragment() {
             ad?.let { bindAd(it) }
         }
 
+        // 4. 交互按钮
+        btnLike = view.findViewById(R.id.btnLike)
+        ivLikeIcon = view.findViewById(R.id.ivLikeIcon)
+        tvLikeCount = view.findViewById(R.id.tvLikeCount)
+        btnBookmark = view.findViewById(R.id.btnBookmark)
+        ivBookmarkIcon = view.findViewById(R.id.ivBookmarkIcon)
+        tvBookmarkCount = view.findViewById(R.id.tvBookmarkCount)
+        btnShare = view.findViewById(R.id.btnShare)
+        ivShareIcon = view.findViewById(R.id.ivShareIcon)
+        tvShareCount = view.findViewById(R.id.tvShareCount)
+
+        btnLike.setOnClickListener {
+            it.startAnimation(AnimationUtils.loadAnimation(requireContext(), R.anim.scale_button))
+            viewLifecycleOwner.lifecycleScope.launch {
+                bindInteractionButtons(interactionRepository.toggleLike(adId))
+            }
+        }
+        btnBookmark.setOnClickListener {
+            it.startAnimation(AnimationUtils.loadAnimation(requireContext(), R.anim.scale_button))
+            viewLifecycleOwner.lifecycleScope.launch {
+                bindInteractionButtons(interactionRepository.toggleBookmark(adId))
+            }
+        }
+        btnShare.setOnClickListener {
+            it.startAnimation(AnimationUtils.loadAnimation(requireContext(), R.anim.scale_button))
+            viewLifecycleOwner.lifecycleScope.launch {
+                bindInteractionButtons(interactionRepository.toggleShare(adId))
+            }
+        }
+
         setupSwipeBack()
     }
 
@@ -117,7 +162,7 @@ class DetailFragment : Fragment() {
         viewPagerMedia.adapter = mediaPagerAdapter
 
         // 圆点指示器
-// 手动创建圆点
+        // 手动创建圆点
         dotIndicator.removeAllViews()
         val size = (8 * resources.displayMetrics.density).toInt()
         val margin = (4 * resources.displayMetrics.density).toInt()
@@ -143,8 +188,14 @@ class DetailFragment : Fragment() {
             }
         })
 
+
         // 视频播放控制
         setupVideoPlayback()
+
+        // 加载交互状态
+        viewLifecycleOwner.lifecycleScope.launch {
+            bindInteractionButtons(interactionRepository.getInteraction(adId))
+        }
     }
 
     private fun setupVideoPlayback() {
@@ -230,4 +281,21 @@ class DetailFragment : Fragment() {
         currentVideoPosition = -1
     }
 
+    private fun bindInteractionButtons(state: DatabaseHelper.InteractionState?) {
+        ivLikeIcon.setImageResource(
+            if (state?.isLiked == true) R.drawable.ic_like_active else R.drawable.ic_like_inactive
+        )
+        tvLikeCount.text = if (state?.isLiked == true) "1" else ""
+
+        ivBookmarkIcon.setImageResource(
+            if (state?.isBookmarked == true) R.drawable.ic_bookmark_active else
+                R.drawable.ic_bookmark_inactive
+        )
+        tvBookmarkCount.text = if (state?.isBookmarked == true) "1" else ""
+
+        ivShareIcon.setImageResource(
+            if (state?.isShared == true) R.drawable.ic_share_active else R.drawable.ic_share_inactive
+        )
+        tvShareCount.text = if (state?.isShared == true) "1" else ""
+    }
 }

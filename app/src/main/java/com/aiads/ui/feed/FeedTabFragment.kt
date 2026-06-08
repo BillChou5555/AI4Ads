@@ -17,12 +17,14 @@ import com.aiads.App
 import com.aiads.R
 import com.aiads.data.model.Ad
 import com.aiads.data.repository.FeedRepository
+import com.aiads.data.repository.InteractionRepository
 import com.aiads.di.AppContainer
 import com.aiads.player.PlaybackManager
 import com.aiads.player.PlayerPool
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.launch
 import androidx.cardview.widget.CardView
+import com.aiads.data.local.DatabaseHelper
 import com.google.android.material.chip.Chip
 
 
@@ -56,6 +58,9 @@ class FeedTabFragment : Fragment() {
     private val playerPool: PlayerPool by lazy { appContainer.playerPool }
     private lateinit var playbackManager: PlaybackManager
     private val repository: FeedRepository by lazy {appContainer.feedRepository}
+    private val interactionRepository: InteractionRepository by lazy {
+        appContainer.interactionRepository }
+    private var interactionMap: Map<String, DatabaseHelper.InteractionState> = emptyMap()
 
     /**
      * 自定义 ViewModelFactory。
@@ -129,9 +134,27 @@ class FeedTabFragment : Fragment() {
         feedAdapter = FeedAdapter(
             onCardClick = { ad -> navigateToDetail(ad) },
             onTagClick = { tag -> viewModel.toggleFilterTag(tag) },
-            onLikeClick = { ad -> /* M5 实现 */ },
-            onBookmarkClick = { ad -> /* M5 实现 */ },
-            onShareClick = { ad -> /* M5 实现 */ }
+            onLikeClick = { ad ->
+                viewLifecycleOwner.lifecycleScope.launch {
+                    val newState = interactionRepository.toggleLike(ad.adId)
+                    interactionMap = interactionMap + (ad.adId to newState)
+                    feedAdapter.updateInteraction(ad.adId, newState)
+                }
+            },
+            onBookmarkClick = { ad ->
+                viewLifecycleOwner.lifecycleScope.launch {
+                    val newState = interactionRepository.toggleBookmark(ad.adId)
+                    interactionMap = interactionMap + (ad.adId to newState)
+                    feedAdapter.updateInteraction(ad.adId, newState)
+                }
+            },
+            onShareClick = { ad ->
+                viewLifecycleOwner.lifecycleScope.launch {
+                    val newState = interactionRepository.toggleShare(ad.adId)
+                    interactionMap = interactionMap + (ad.adId to newState)
+                    feedAdapter.updateInteraction(ad.adId, newState)
+                }
+            }
         )
 
         recyclerView.layoutManager = LinearLayoutManager(requireContext())
@@ -174,7 +197,12 @@ class FeedTabFragment : Fragment() {
     private fun observeViewModel(swipeRefresh: SwipeRefreshLayout) {
         // 数据变化 → 更新列表
         viewModel.ads.observe(viewLifecycleOwner) { ads ->
-            feedAdapter.submitList(ads, emptyMap())  // M5 替换为真实交互状态
+            viewLifecycleOwner.lifecycleScope.launch {
+                val ids = ads.map { it.adId }.toSet()
+                interactionMap = interactionRepository.getInteractionMap(ids)
+                feedAdapter.submitList(ads, interactionMap)
+                recyclerView.post { playbackManager.evaluate() }
+            }
             recyclerView.post { playbackManager.evaluate() }
         }
 

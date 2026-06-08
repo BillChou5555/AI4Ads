@@ -74,9 +74,21 @@ abstract class BaseCardViewHolder(itemView: View) : RecyclerView.ViewHolder(item
         btnShare.isSelected = interaction?.isShared == true
 
         // 操作按钮点击——setOnClickListener 会覆盖之前的监听器
-        btnLike.setOnClickListener { onLikeClick(ad) }
-        btnBookmark.setOnClickListener { onBookmarkClick(ad) }
-        btnShare.setOnClickListener { onShareClick(ad) }
+        btnLike.setOnClickListener {
+            btnLike.startAnimation(android.view.animation.AnimationUtils.loadAnimation(itemView.context,
+                R.anim.scale_button))
+            onLikeClick(ad)
+        }
+        btnBookmark.setOnClickListener {
+            btnBookmark.startAnimation(android.view.animation.AnimationUtils.loadAnimation(itemView.context,
+                R.anim.scale_button))
+            onBookmarkClick(ad)
+        }
+        btnShare.setOnClickListener {
+            btnShare.startAnimation(android.view.animation.AnimationUtils.loadAnimation(itemView.context,
+                R.anim.scale_button))
+            onShareClick(ad)
+        }
 
         // 卡片根布局点击 → 跳转详情
         itemView.setOnClickListener { onCardClick(ad) }

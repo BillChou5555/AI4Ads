@@ -4,4 +4,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="gray_secondary">#999999</color>
     <color name="tab_indicator">#FF6200EE</color>
+    <color name="like_active">#E53935</color>
+    <color name="like_inactive">#999999</color>
+    <color name="bookmark_active">#FFA000</color>
+    <color name="bookmark_inactive">#999999</color>
+    <color name="share_active">#1976D2</color>
+    <color name="share_inactive">#999999</color>
 </resources>

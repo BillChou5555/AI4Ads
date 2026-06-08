@@ -96,7 +96,7 @@
                         android:id="@+id/ivLikeIcon"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@android:drawable/btn_radio" />
+                        android:src="@drawable/ic_like_inactive" />
 
                     <TextView
                         android:id="@+id/tvLikeCount"
@@ -120,7 +120,7 @@
                         android:id="@+id/ivBookmarkIcon"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@android:drawable/btn_star" />
+                        android:src="@drawable/ic_bookmark_inactive" />
 
                     <TextView
                         android:id="@+id/tvBookmarkCount"
@@ -144,7 +144,7 @@
                         android:id="@+id/ivShareIcon"
                         android:layout_width="24dp"
                         android:layout_height="24dp"
-                        android:src="@android:drawable/ic_menu_share" />
+                        android:src="@drawable/ic_share_inactive" />
 
                     <TextView
                         android:id="@+id/tvShareCount"

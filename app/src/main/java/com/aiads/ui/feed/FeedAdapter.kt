@@ -71,4 +71,22 @@ class FeedAdapter(
         multiImageAdapter.submitList(ads.filter { detectCardType(it) == CardType.MULTI_IMAGE })
         textOnlyAdapter.submitList(ads.filter { detectCardType(it) == CardType.TEXT_ONLY })
     }
+
+    fun updateInteraction(adId: String, newState: DatabaseHelper.InteractionState) {
+        videoAdapter.interactionMap = videoAdapter.interactionMap + (adId to newState)
+        val posV = videoAdapter.currentList.indexOfFirst { it.adId == adId }
+        if (posV >= 0) videoAdapter.notifyItemChanged(posV)
+
+        largeImageAdapter.interactionMap = largeImageAdapter.interactionMap + (adId to newState)
+        val posL = largeImageAdapter.currentList.indexOfFirst { it.adId == adId }
+        if (posL >= 0) largeImageAdapter.notifyItemChanged(posL)
+
+        multiImageAdapter.interactionMap = multiImageAdapter.interactionMap + (adId to newState)
+        val posM = multiImageAdapter.currentList.indexOfFirst { it.adId == adId }
+        if (posM >= 0) multiImageAdapter.notifyItemChanged(posM)
+
+        textOnlyAdapter.interactionMap = textOnlyAdapter.interactionMap + (adId to newState)
+        val posT = textOnlyAdapter.currentList.indexOfFirst { it.adId == adId }
+        if (posT >= 0) textOnlyAdapter.notifyItemChanged(posT)
+    }
 }
