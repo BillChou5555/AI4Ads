@@ -62,6 +62,9 @@ class FeedFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setupViewPager()
+        binding.btnDashboard.setOnClickListener {
+            findNavController().navigate(R.id.action_to_dashboard)
+        }
         setupSearchButton()
     }
 

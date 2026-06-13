@@ -18,13 +18,6 @@ class SearchFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        // 暂用 feed 布局占位，M13 替换为 fragment_search.xml
         return inflater.inflate(R.layout.fragment_feed_tab, container, false)
-    }
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        view.findViewById<android.widget.TextView>(R.id.tvTabPlaceholder)?.text =
-            "搜索页\n\nM13 将在此实现搜索功能"
     }
 }

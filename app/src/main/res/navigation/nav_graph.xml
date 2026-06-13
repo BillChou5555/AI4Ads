@@ -19,6 +19,10 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_to_dashboard"
+            app:destination="@id/analyticsDashboardFragment" />
+
     </fragment>
 
     <!--
@@ -42,5 +46,11 @@
             android:name="adId"
             app:argType="string" />
     </fragment>
+
+    <fragment
+        android:id="@+id/analyticsDashboardFragment"
+        android:name="com.aiads.ui.analytics.AnalyticsDashboardFragment"
+        android:label="数据看板" />
+
 
 </navigation>

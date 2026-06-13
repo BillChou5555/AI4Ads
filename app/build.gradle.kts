@@ -22,7 +22,7 @@ android {
 //        buildConfigField("String", "BASE_URL", "\"http://10.0.2.2:8000/\"")
         //出现网络问题时从本地ip进入，设置防火墙端口8000允许入站，用端口转发方案 adb reverse tcp:8000 tcp:8000 2>&1
         buildConfigField("String", "BASE_URL", "\"http://127.0.0.1:8000/\"")
-        buildConfigField("String", "HOST_URL", "\"http://192.168.0.4:8000/\"")  // 替换为你的局域网 IP
+        buildConfigField("String", "HOST_URL", "\"http://192.168.1.3:8000/\"")  // 替换为你的局域网 IP
     }
 
     buildTypes {
@@ -91,4 +91,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    // 图表库（数据看板）
+    implementation(libs.mpandroidchart)
 }

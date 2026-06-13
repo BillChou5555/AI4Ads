@@ -33,6 +33,22 @@ class DatabaseHelper(context: Context) :
             )
             """.trimIndent()
         )
+        // 埋点统计表
+        db.execSQL(
+            """
+            CREATE TABLE analytics_events (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                device_id TEXT NOT NULL,
+                ad_id TEXT NOT NULL,
+                event_type TEXT NOT NULL,
+                event_time INTEGER NOT NULL,
+                tab TEXT,
+                position TEXT,
+                tag_name TEXT
+            )
+            """.trimIndent()
+        )
+
         // 创建搜索历史表
         db.execSQL(
             """
@@ -46,7 +62,22 @@ class DatabaseHelper(context: Context) :
     }
 
     override fun onUpgrade(db: SQLiteDatabase, oldVersion: Int, newVersion: Int) {
-        // M1 阶段版本 1，暂无升级逻辑
+        if (oldVersion < 2) {
+            db.execSQL(
+                """
+              CREATE TABLE analytics_events (
+                  id INTEGER PRIMARY KEY AUTOINCREMENT,
+                  device_id TEXT NOT NULL,
+                  ad_id TEXT NOT NULL,
+                  event_type TEXT NOT NULL,
+                  event_time INTEGER NOT NULL,
+                  tab TEXT,
+                  position TEXT,
+                  tag_name TEXT
+              )
+              """.trimIndent()
+            )
+        }
     }
 
     // ==================== 用户交互操作 ====================
@@ -141,6 +172,62 @@ class DatabaseHelper(context: Context) :
         writableDatabase.delete("search_history", null, null)
     }
 
+    // ==================== 埋点事件操作 ====================
+
+    /** 插入一条埋点事件 */
+    fun insertAnalyticsEvent(
+        deviceId: String, adId: String, eventType: String,
+        eventTime: Long, tab: String?, position: String?, tagName: String?
+    ) {
+        val values = ContentValues().apply {
+            put("device_id", deviceId)
+            put("ad_id", adId)
+            put("event_type", eventType)
+            put("event_time", eventTime)
+            put("tab", tab)
+            put("position", position)
+            put("tag_name", tagName)
+        }
+        writableDatabase.insert("analytics_events", null, values)
+    }
+
+    /** 按事件类型统计计数 */
+    fun getEventCountsByType(): Map<String, Int> {
+        val cursor = readableDatabase.rawQuery(
+            "SELECT event_type, COUNT(*) FROM analytics_events GROUP BY event_type", null
+        )
+        return cursor.use {
+            val map = mutableMapOf<String, Int>()
+            while (it.moveToNext()) map[it.getString(0)] = it.getInt(1)
+            map
+        }
+    }
+
+    /** 查询所有事件（按时间倒序） */
+    fun getAllEvents(): List<AnalyticsEventRecord> {
+        val cursor = readableDatabase.rawQuery(
+            "SELECT device_id, ad_id, event_type, event_time, tab, position, tag_name FROM analytics_events ORDER BY event_time DESC",
+            null
+        )
+        return cursor.use {
+            val list = mutableListOf<AnalyticsEventRecord>()
+            while (it.moveToNext()) {
+                list.add(
+                    AnalyticsEventRecord(
+                        deviceId = it.getString(0),
+                        adId = it.getString(1),
+                        eventType = it.getString(2),
+                        eventTime = it.getLong(3),
+                        tab = it.getString(4),
+                        position = it.getString(5),
+                        tagName = it.getString(6)
+                    )
+                )
+            }
+            list
+        }
+    }
+
     // ==================== 数据类与常量 ====================
 
     /** 用户交互状态值对象 */
@@ -150,8 +237,19 @@ class DatabaseHelper(context: Context) :
         val isShared: Boolean = false
     )
 
+    /** 埋点事件记录（从数据库读取时使用） */
+    data class AnalyticsEventRecord(
+        val deviceId: String,
+        val adId: String,
+        val eventType: String,
+        val eventTime: Long,
+        val tab: String?,
+        val position: String?,
+        val tagName: String?
+    )
+
     companion object {
         private const val DATABASE_NAME = "ai4ads.db"
-        private const val DATABASE_VERSION = 1
+        private const val DATABASE_VERSION = 2
     }
 }

@@ -36,6 +36,17 @@
             app:tabTextColor="@color/gray_secondary" />
 
         <ImageView
+            android:id="@+id/btnDashboard"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_chart"
+            android:contentDescription="数据看板"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="center" />
+
+        <ImageView
             android:id="@+id/btnSearch"
             android:layout_width="48dp"
             android:layout_height="48dp"

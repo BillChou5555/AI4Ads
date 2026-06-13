@@ -28,6 +28,7 @@ import androidx.recyclerview.widget.RecyclerView
 import android.view.animation.AnimationUtils
 import com.aiads.data.local.DatabaseHelper
 import com.aiads.data.repository.InteractionRepository
+import com.aiads.analytics.AnalyticsManager
 import androidx.lifecycle.lifecycleScope
 import kotlinx.coroutines.launch
 
@@ -46,6 +47,8 @@ class DetailFragment : Fragment() {
     private val playerPool: PlayerPool by lazy { appContainer.playerPool }
     private val interactionRepository: InteractionRepository by lazy {
         appContainer.interactionRepository }
+    private val analyticsManager: AnalyticsManager by lazy { appContainer.analyticsManager }
+    private var currentAd: Ad? = null
 
     // ===== ViewModel =====
     private val viewModel: DetailViewModel by viewModels {
@@ -123,18 +126,21 @@ class DetailFragment : Fragment() {
             it.startAnimation(AnimationUtils.loadAnimation(requireContext(), R.anim.scale_button))
             viewLifecycleOwner.lifecycleScope.launch {
                 bindInteractionButtons(interactionRepository.toggleLike(adId))
+                currentAd?.let { analyticsManager.trackLike(it) }
             }
         }
         btnBookmark.setOnClickListener {
             it.startAnimation(AnimationUtils.loadAnimation(requireContext(), R.anim.scale_button))
             viewLifecycleOwner.lifecycleScope.launch {
                 bindInteractionButtons(interactionRepository.toggleBookmark(adId))
+                currentAd?.let { analyticsManager.trackShare(it) }
             }
         }
         btnShare.setOnClickListener {
             it.startAnimation(AnimationUtils.loadAnimation(requireContext(), R.anim.scale_button))
             viewLifecycleOwner.lifecycleScope.launch {
                 bindInteractionButtons(interactionRepository.toggleShare(adId))
+                currentAd?.let { analyticsManager.trackShare(it) }
             }
         }
 
@@ -143,6 +149,7 @@ class DetailFragment : Fragment() {
 
     // 填充数据
     private fun bindAd(ad: Ad) {
+        currentAd = ad
         // 文字信息
         tvTitle.text = ad.title
         tvAiSummary.text = ad.aiSummary

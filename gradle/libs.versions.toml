@@ -2,6 +2,7 @@
 # 构建工具
 agp = "9.2.1"
 ksp = "2.3.6"
+mpandroidchart = "3.1.0"
 
 # AndroidX 核心
 coreKtx = "1.18.0"
@@ -57,6 +58,7 @@ androidx-constraintlayout = { group = "androidx.constraintlayout", name = "const
 androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
 androidx-viewpager2 = { group = "androidx.viewpager2", name = "viewpager2", version.ref = "viewpager2" }
 androidx-swiperefreshlayout = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "swiperefreshlayout" }
+mpandroidchart = { module = "com.github.PhilJay:MPAndroidChart", version.ref = "mpandroidchart" }
 
 # Material Design
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }

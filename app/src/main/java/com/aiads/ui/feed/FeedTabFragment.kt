@@ -18,6 +18,7 @@ import com.aiads.R
 import com.aiads.data.model.Ad
 import com.aiads.data.repository.FeedRepository
 import com.aiads.data.repository.InteractionRepository
+import com.aiads.analytics.AnalyticsManager
 import com.aiads.di.AppContainer
 import com.aiads.player.PlaybackManager
 import com.aiads.player.PlayerPool
@@ -60,6 +61,7 @@ class FeedTabFragment : Fragment() {
     private val repository: FeedRepository by lazy {appContainer.feedRepository}
     private val interactionRepository: InteractionRepository by lazy {
         appContainer.interactionRepository }
+    private val analyticsManager: AnalyticsManager by lazy { appContainer.analyticsManager }
     private var interactionMap: Map<String, DatabaseHelper.InteractionState> = emptyMap()
 
     /**
@@ -133,12 +135,17 @@ class FeedTabFragment : Fragment() {
     private fun setupRecyclerView() {
         feedAdapter = FeedAdapter(
             onCardClick = { ad -> navigateToDetail(ad) },
-            onTagClick = { tag -> viewModel.toggleFilterTag(tag) },
+            onTagClick = { tag ->
+                val firstAd = viewModel.ads.value?.firstOrNull()
+                if (firstAd != null) analyticsManager.trackTagFilter(tag, firstAd)
+                viewModel.toggleFilterTag(tag)
+            },
             onLikeClick = { ad ->
                 viewLifecycleOwner.lifecycleScope.launch {
                     val newState = interactionRepository.toggleLike(ad.adId)
                     interactionMap = interactionMap + (ad.adId to newState)
                     feedAdapter.updateInteraction(ad.adId, newState)
+                    analyticsManager.trackLike(ad)
                 }
             },
             onBookmarkClick = { ad ->
@@ -146,6 +153,7 @@ class FeedTabFragment : Fragment() {
                     val newState = interactionRepository.toggleBookmark(ad.adId)
                     interactionMap = interactionMap + (ad.adId to newState)
                     feedAdapter.updateInteraction(ad.adId, newState)
+                     analyticsManager.trackFavorite(ad)
                 }
             },
             onShareClick = { ad ->
@@ -153,6 +161,7 @@ class FeedTabFragment : Fragment() {
                     val newState = interactionRepository.toggleShare(ad.adId)
                     interactionMap = interactionMap + (ad.adId to newState)
                     feedAdapter.updateInteraction(ad.adId, newState)
+                    analyticsManager.trackShare(ad)
                 }
             }
         )
@@ -189,7 +198,34 @@ class FeedTabFragment : Fragment() {
                     viewModel.loadMore()
                 }
             }
+
+            override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
+            if (newState == RecyclerView.SCROLL_STATE_IDLE) {
+                checkExposures()
+            }
+            }
         })
+    }
+
+    private fun checkExposures() {
+        val layoutManager = recyclerView.layoutManager as? LinearLayoutManager ?: return
+        val firstVisible = layoutManager.findFirstVisibleItemPosition()
+        val lastVisible = layoutManager.findLastVisibleItemPosition()
+        val ads = viewModel.ads.value ?: return
+
+        for (i in firstVisible..lastVisible) {
+            val view = layoutManager.findViewByPosition(i) ?: continue
+            val ad = ads.getOrNull(i) ?: continue
+
+            // 计算可见比例
+            val visibleTop = if (view.top < 0) 0 else view.top
+            val visibleBottom = if (view.bottom > recyclerView.height) recyclerView.height else view.bottom
+            val visibleHeight = visibleBottom - visibleTop
+            val totalHeight = view.height
+            if (totalHeight > 0 && visibleHeight.toFloat() / totalHeight >= 0.5f) {
+                analyticsManager.trackImpression(ad, tab)
+            }
+        }
     }
 
     // ==================== 观察 ViewModel ====================
@@ -250,6 +286,7 @@ class FeedTabFragment : Fragment() {
     // ==================== 导航 ====================
 
     private fun navigateToDetail(ad: Ad) {
+        analyticsManager.trackClick(ad, "card")
         val bundle = Bundle().apply { putString("adId", ad.adId) }
         findNavController().navigate(R.id.action_to_detail, bundle)
     }

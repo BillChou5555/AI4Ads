@@ -17,6 +17,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 import com.aiads.player.PlayerPool
 import com.aiads.data.repository.InteractionRepository
+import com.aiads.analytics.AnalyticsManager
 
 /**
  * 手动依赖注入容器。
@@ -89,6 +90,10 @@ class AppContainer(private val context: Context) {
     val interactionRepository: InteractionRepository by lazy {
         InteractionRepository(database)
     }
+    val analyticsManager: AnalyticsManager by lazy {
+      AnalyticsManager(database, deviceIdProvider)
+    }
+
 
     val playerPool: PlayerPool by lazy {
         PlayerPool(context, maxSize = 3)
