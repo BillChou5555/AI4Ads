@@ -98,9 +98,9 @@ class FeedFragment : Fragment() {
 
     /** 搜索按钮点击 → 跳转到 SearchFragment */
     private fun setupSearchButton() {
+        // 导航到搜索页
         binding.btnSearch.setOnClickListener {
-            // TODO: M13 导航到搜索页
-            // findNavController().navigate(R.id.action_feed_to_search)
+            findNavController().navigate(R.id.action_to_search)
         }
     }
 

@@ -22,6 +22,9 @@
         <action
             android:id="@+id/action_to_dashboard"
             app:destination="@id/analyticsDashboardFragment" />
+        <action
+            android:id="@+id/action_to_search"
+            app:destination="@id/searchFragment" />
 
     </fragment>
 

@@ -4,4 +4,5 @@
     <string name="tab_ecommerce">电商</string>
     <string name="tab_local">本地</string>
     <string name="search_hint">搜索你感兴趣的广告</string>
+    <string name="dashboard_des">数据看板</string>
 </resources>
