@@ -1,0 +1,175 @@
+[
+  {
+    "title": "Nike Air Max 270 春季新款跑鞋",
+    "provider": "Nike官方旗舰店",
+    "ad_text": "Air Max 270 采用全新气垫科技，提供极致缓震体验。透气网面鞋面搭配流线型设计，适合日常通勤和轻度运动。七种配色可选，限时8折优惠。",
+    "ad_images": [
+      "https://picsum.photos/seed/nike1/400/600",
+      "https://picsum.photos/seed/nike2/400/600",
+      "https://picsum.photos/seed/nike3/400/600"
+    ],
+    "ad_video_audio": "https://storage.example.com/videos/nike_airmax.mp4",
+    "tab": "ecommerce"
+  },
+  {
+    "title": "Apple MacBook Air M4 轻薄笔记本",
+    "provider": "Apple官方旗舰店",
+    "ad_text": "全新 M4 芯片，18 小时续航， Liquid Retina 显示屏。轻薄至1.24kg，学生教育优惠立减800元，支持12期免息分期。",
+    "ad_images": [
+      "https://picsum.photos/seed/macbook1/400/600",
+      "https://picsum.photos/seed/macbook2/400/600"
+    ],
+    "tab": "ecommerce"
+  },
+  {
+    "title": "海底捞火锅 双人欢聚套餐",
+    "provider": "海底捞",
+    "ad_text": "精品肥牛+鲜虾滑+招牌捞面，双人欢聚套餐仅需188元！全城20家门店通用，周末不加价。免费美甲、擦鞋服务等你体验。",
+    "ad_images": [
+      "https://picsum.photos/seed/haidilao1/400/600"
+    ],
+    "tab": "local"
+  },
+  {
+    "title": "贝壳找房 精装修两室一厅 首月免租",
+    "provider": "贝壳找房",
+    "ad_text": "地铁口步行5分钟，精装修全配，拎包入住。月租3500元，首月免租金。周边商场、学校、医院配套齐全。",
+    "ad_images": [
+      "https://picsum.photos/seed/house1/400/600",
+      "https://picsum.photos/seed/house2/400/600",
+      "https://picsum.photos/seed/house3/400/600",
+      "https://picsum.photos/seed/house4/400/600"
+    ],
+    "tab": "local"
+  },
+  {
+    "title": "华为 Pura 80 Pro 影像旗舰",
+    "provider": "华为官方旗舰店",
+    "ad_text": "XMAGE 影像系统，物理可变光圈，卫星通信。麒麟9020芯片，HarmonyOS NEXT，6000万像素超感光主摄。限时赠价值499元保护壳。",
+    "ad_images": [
+      "https://picsum.photos/seed/huawei1/400/600",
+      "https://picsum.photos/seed/huawei2/400/600",
+      "https://picsum.photos/seed/huawei3/400/600"
+    ],
+    "ad_video_audio": "https://storage.example.com/videos/huawei_pura.mp4",
+    "tab": "ecommerce"
+  },
+  {
+    "title": "星巴克 夏日冰咖季 买一送一",
+    "provider": "星巴克中国",
+    "ad_text": "星巴克夏日冰咖季来啦！冷萃、冰拿铁、星冰乐全场买一送一（每日14:00-17:00）。新会员注册即享3张满减券。",
+    "ad_images": [
+      "https://picsum.photos/seed/starbucks1/400/600"
+    ],
+    "tab": "local"
+  },
+  {
+    "title": "优衣库 UT 系列 2026夏季新款T恤",
+    "provider": "优衣库官方旗舰店",
+    "ad_text": "UT系列联名限定款，100%纯棉面料，亲肤透气不变形。20+款印花可选，两件9折三件8折，满199包邮。",
+    "ad_images": [
+      "https://picsum.photos/seed/uniqlo1/400/600",
+      "https://picsum.photos/seed/uniqlo2/400/600",
+      "https://picsum.photos/seed/uniqlo3/400/600",
+      "https://picsum.photos/seed/uniqlo4/400/600",
+      "https://picsum.photos/seed/uniqlo5/400/600",
+      "https://picsum.photos/seed/uniqlo6/400/600"
+    ],
+    "tab": "ecommerce"
+  },
+  {
+    "title": "Peloton 智能动感单车 居家健身首选",
+    "provider": "Peloton官方旗舰店",
+    "ad_text": "22英寸旋转触控屏，直播+录播课程无限畅享。静音磁控阻力系统，心率监测，Apple Watch 互联。30天免费试用，不满意全额退款。",
+    "ad_images": [
+      "https://picsum.photos/seed/peloton1/400/600",
+      "https://picsum.photos/seed/peloton2/400/600"
+    ],
+    "ad_video_audio": "https://storage.example.com/videos/peloton.mp4",
+    "tab": "featured"
+  },
+  {
+    "title": "大疆 DJI Mini 5 Pro 航拍无人机",
+    "provider": "DJI大疆创新",
+    "ad_text": "249g轻巧机身无需登记，4K/120fps 录制，34分钟续航，全向避障。智能跟随4.0，一键成片，小白也能拍大片。",
+    "ad_images": [
+      "https://picsum.photos/seed/dji1/400/600",
+      "https://picsum.photos/seed/dji2/400/600"
+    ],
+    "tab": "featured"
+  },
+  {
+    "title": "完美日记 动物眼影盘 十二色限定款",
+    "provider": "完美日记",
+    "ad_text": "十二色动物眼影盘，粉质细腻易晕染，显色持久不飞粉。哑光+珠光+闪片三质地搭配，一盘搞定日常通勤到夜晚派对。",
+    "ad_images": [
+      "https://picsum.photos/seed/perfect1/400/600",
+      "https://picsum.photos/seed/perfect2/400/600",
+      "https://picsum.photos/seed/perfect3/400/600",
+      "https://picsum.photos/seed/perfect4/400/600"
+    ],
+    "tab": "ecommerce"
+  },
+  {
+    "title": "美团外卖 新人首单立减15元",
+    "provider": "美团",
+    "ad_text": "新人专享福利，首单立减15元！全城美食30分钟送达，覆盖火锅、炸鸡、奶茶、轻食等5000+商户。天天领红包，下单更优惠。",
+    "ad_images": [
+      "https://picsum.photos/seed/meituan1/400/600"
+    ],
+    "tab": "local"
+  },
+  {
+    "title": "戴森 V16 Detect 无线吸尘器",
+    "provider": "戴森官方旗舰店",
+    "ad_text": "激光探测微尘，LCD屏幕实时显示颗粒数据。240AW强劲吸力，整机HEPA过滤，60分钟续航。压电式传感器智能调节吸力。",
+    "ad_images": [
+      "https://picsum.photos/seed/dyson1/400/600",
+      "https://picsum.photos/seed/dyson2/400/600",
+      "https://picsum.photos/seed/dyson3/400/600"
+    ],
+    "tab": "featured"
+  },
+  {
+    "title": "Adidas Ultraboost 5.0 跑鞋",
+    "provider": "Adidas官方旗舰店",
+    "ad_text": "BOOST中底科技能量反馈，Primeknit+编织鞋面360度贴合。Continental马牌橡胶大底耐磨防滑。多色可选，跑者之选。",
+    "ad_images": [
+      "https://picsum.photos/seed/adidas1/400/600",
+      "https://picsum.photos/seed/adidas2/400/600"
+    ],
+    "tab": "ecommerce"
+  },
+  {
+    "title": "Sony WH-1000XM6 无线降噪耳机",
+    "provider": "Sony官方旗舰店",
+    "ad_text": "全新集成处理器V2，降噪性能再升级。30小时续航，快充3分钟播放3小时。LDAC高解析度音频，自适应声音控制。",
+    "ad_images": [
+      "https://picsum.photos/seed/sony1/400/600",
+      "https://picsum.photos/seed/sony2/400/600"
+    ],
+    "tab": "featured"
+  },
+  {
+    "title": "盒马鲜生 周末生鲜特卖 低至5折",
+    "provider": "盒马鲜生",
+    "ad_text": "智利车厘子29.9元/斤、鲜活波士顿龙虾99元/只、挪威三文鱼买二送一。App下单30分钟极速达，门店覆盖全城。",
+    "ad_images": [
+      "https://picsum.photos/seed/hema1/400/600",
+      "https://picsum.photos/seed/hema2/400/600",
+      "https://picsum.photos/seed/hema3/400/600"
+    ],
+    "tab": "local"
+  },
+  {
+    "title": "LEGO 乐高 兰博基尼 Sián 科技系列",
+    "provider": "LEGO官方旗舰店",
+    "ad_text": "3696颗粒，1:8比例还原兰博基尼Sián FKP 37。可动V12引擎、8速变速箱、可调尾翼。成人收藏级拼搭体验。",
+    "ad_images": [
+      "https://picsum.photos/seed/lego1/400/600",
+      "https://picsum.photos/seed/lego2/400/600",
+      "https://picsum.photos/seed/lego3/400/600"
+    ],
+    "tab": "featured"
+  }
+]

@@ -1,0 +1,1014 @@
+[
+  {
+    "title": "小米 15 Pro 徕卡影像",
+    "provider": "小米官方旗舰店",
+    "ad_text": "首发骁龙8 Gen 4，徕卡光学镜头，5000mAh大电池，全等深微曲屏。享24期免息。",
+    "tab": "ecommerce",
+    "ad_images": [
+        "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/192908/1/50421/31728/67203b9bF810c4b7c/97c64a2f957320e7.jpg",
+        "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/245720/34/27136/75066/674e5e4aF8c01f3a5/33a31bdf934b2570.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "小米15 Pro，徕卡影像，24期免息",
+    "ai_tags": [{"value": "智能手机", "category": "品类"}, {"value": "小米", "category": "品牌"}]
+  },
+  {
+    "title": "OPPO Find X8 Ultra",
+    "provider": "OPPO官方旗舰店",
+    "ad_text": "双潜望长焦，哈苏影像系统。超薄机身，AI大模型加持。预定赠送蓝牙耳机。",
+    "tab": "featured",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/277912/9/17741/141305/67f5daa2F5b08b3fd/6891b58e6e7022ee.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/1ff30d0b965615371582238721/1097_5000_1_23f98e8e9_f.mp4?source=1&h265=1088_3000_1_7d74c6ecb_f.mp4",
+    "ai_summary": "OPPO Find X8 Ultra，哈苏影像预定赠耳机",
+    "ai_tags": [{"value": "智能手机", "category": "品类"}, {"value": "OPPO", "category": "品牌"}]
+  },
+  {
+    "title": "vivo X200 Pro 蔡司影像",
+    "provider": "vivo官方旗舰店",
+    "ad_text": "天玑9400首发，蔡司APO超级长焦。蓝海电池长续航，限时立减200元。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/267904/19/25401/95981/67bfdd7bF5fd64605/ae53fbeac172528a.jpg"],
+    "ad_video_audio": "https://jvod.300hu.com/vod/product/1783051917/21852/8f2629d44c294be690df478f4e6f0df3.mp4",
+    "ai_summary": "vivo X200 Pro蔡司长焦，限时立减",
+    "ai_tags": [{"value": "智能手机", "category": "品类"}, {"value": "vivo", "category": "品牌"}]
+  },
+  {
+    "title": "荣耀 Magic 7 旗舰手机",
+    "provider": "荣耀官方旗舰店",
+    "ad_text": "绿洲护眼屏，鹰眼相机抓拍无影。全系支持卫星通信，购机抽免单。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/399820/31/8772/398442/69a6962eFda7b4c2e/0083320320876985.png"],
+    "ad_video_audio": null,
+    "ai_summary": "荣耀Magic 7鹰眼相机，全系卫星通信",
+    "ai_tags": [{"value": "智能手机", "category": "品类"}, {"value": "荣耀", "category": "品牌"}]
+  },
+  {
+    "title": "三星 Galaxy S25 Ultra",
+    "provider": "三星官方旗舰店",
+    "ad_text": "内置S Pen，两亿像素主摄，Galaxy AI全面升级。旧机换新至高补贴800元。",
+    "tab": "featured",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/434040/16/17647/94904/6a0c3937Fc14aece8/00833203200f34bf.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "三星S25 Ultra，Galaxy AI升级，以旧换新补贴",
+    "ai_tags": [{"value": "智能手机", "category": "品类"}, {"value": "三星", "category": "品牌"}]
+  },
+  {
+    "title": "一加 13 性能旗舰",
+    "provider": "一加官方旗舰店",
+    "ad_text": "哈苏影像，顶级2K东方屏。百瓦闪充+无线充电，游戏体验满帧享受。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/445687/1/5266/49116/6a1af77eF79295a94/0083320320e71153.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "一加13性能旗舰，2K东方屏，满帧游戏",
+    "ai_tags": [{"value": "智能手机", "category": "品类"}, {"value": "一加", "category": "品牌"}]
+  },
+  {
+    "title": "真我 realme GT7 Pro",
+    "provider": "真我官方旗舰店",
+    "ad_text": "潜望长焦普及者，骁龙顶级芯片，高能电竞体验。学生专属优惠立减100。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/271272/30/23815/68015/6805b505Fd5331ee1/4914824056530d0e.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "真我GT7 Pro电竞手机，学生立减",
+    "ai_tags": [{"value": "智能手机", "category": "品类"}, {"value": "realme", "category": "品牌"}]
+  },
+  {
+    "title": "魅族 22 无界手机",
+    "provider": "魅族官方旗舰店",
+    "ad_text": "白面板极窄边框设计，Flyme无界生态互联。质感越级，36个月流畅不卡顿。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/329895/11/13419/45992/68c7ca85Fe655683d/03cf1cd8b6eb2641.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "魅族22无界生态，白面板极窄边框",
+    "ai_tags": [{"value": "智能手机", "category": "品类"}, {"value": "魅族", "category": "品牌"}]
+  },
+  {
+    "title": "努比亚 Z70 Ultra",
+    "provider": "努比亚旗舰店",
+    "ad_text": "第七代屏下摄像，真全面屏体验。35mm人文主摄，拍出大师级人像。",
+    "tab": "featured",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/296103/6/894/88208/680f3b58F2d66c67d/99cf4750832a472c.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "努比亚Z70 Ultra真全面屏，人文摄影",
+    "ai_tags": [{"value": "智能手机", "category": "品类"}, {"value": "努比亚", "category": "品牌"}]
+  },
+  {
+    "title": "iQOO 13 电竞旗舰",
+    "provider": "iQOO官方旗舰店",
+    "ad_text": "自研电竞芯片Q2，144Hz高刷屏，对称式双X轴马达。购机送电竞散热背夹。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/221244/17/44711/85844/6721e3eaFcdc03a80/2fb5c0aa3ac941b0.jpg"],
+    "ad_video_audio": "https://jvod.300hu.com/vod/product/1607371021/21852/b6464a24e0194702a33ace822009ea65.mp4",
+    "ai_summary": "iQOO 13电竞旗舰，赠散热背夹",
+    "ai_tags": [{"value": "智能手机", "category": "品类"}, {"value": "iQOO", "category": "品牌"}]
+  },
+  {
+    "title": "Apple iPad Pro 2026 M5",
+    "provider": "Apple官方旗舰店",
+    "ad_text": "搭载全新M5芯片，双层OLED屏幕带来极致对比度。支持Apple Pencil Pro。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/333986/4/26860/40689/68ff2791Fb4eb993e/65b17a4df8ed4ee4.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/38b762071033760506903601153/1097_5000_1_1378f0912_f.mp4?source=1&h265=1133_2500_1_820210f0e_f.mp4",
+    "ai_summary": "iPad Pro M5，双层OLED，支持Pencil Pro",
+    "ai_tags": [{"value": "平板电脑", "category": "品类"}, {"value": "Apple", "category": "品牌"}]
+  },
+  {
+    "title": "华为 MatePad Pro 13.2",
+    "provider": "华为官方旗舰店",
+    "ad_text": "柔性OLED大屏，星闪技术手写笔零延迟。鸿蒙PC级WPS，办公新利器。",
+    "tab": "featured",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/434602/13/18505/81318/6a0eea4eFf6b7b3dd/0083320320f29e84.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/15c4e579913804089413910529/1097_3000_1_094e803c1_f.mp4?source=1&h265=1088_2000_1_661064569_f.mp4",
+    "ai_summary": "华为MatePad Pro 13.2大屏，星闪手写笔",
+    "ai_tags": [{"value": "平板电脑", "category": "品类"}, {"value": "华为", "category": "品牌"}]
+  },
+  {
+    "title": "联想 YOGA Pro 14s",
+    "provider": "联想官方旗舰店",
+    "ad_text": "Intel Core Ultra处理器，AI智能办公助手。3K高刷触控屏，轻薄本的性能标杆。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/409360/30/16716/114420/69cb3c32F2f2e1e3c/0083320320f2e9d7.png"],
+    "ad_video_audio": null,
+    "ai_summary": "联想YOGA Pro轻薄本，AI智能助手",
+    "ai_tags": [{"value": "笔记本电脑", "category": "品类"}, {"value": "联想", "category": "品牌"}]
+  },
+  {
+    "title": "华硕 玩家国度 ROG 幻16",
+    "provider": "ROG官方旗舰店",
+    "ad_text": "RTX 4070独显，星云屏2.5K 240Hz。液金散热，全能设计本，创作者首选。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/411185/31/16853/143316/69ce3eaeF058f4053/0083320320259226.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "ROG幻16全能本，RTX4070独显",
+    "ai_tags": [{"value": "笔记本电脑", "category": "品类"}, {"value": "ROG", "category": "品牌"}]
+  },
+  {
+    "title": "戴尔 XPS 14 轻薄本",
+    "provider": "戴尔官方旗舰店",
+    "ad_text": "极简无缝玻璃触控板，全CNC铝合金机身。InfinityEdge全面屏，尽显优雅。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/363822/24/3366/94912/69218407Ff0c67c2b/eee0f4d9868d95f5.jpg"],
+    "ad_video_audio": "https://jvod.300hu.com/vod/product/1503810006/21852/199edb894a50421d9cff1467ecfd75fe.mp4",
+    "ai_summary": "戴尔XPS 14轻薄本，无缝玻璃触控",
+    "ai_tags": [{"value": "笔记本电脑", "category": "品类"}, {"value": "戴尔", "category": "品牌"}]
+  },
+  {
+    "title": "小米 平板 7 Max",
+    "provider": "小米官方旗舰店",
+    "ad_text": "14英寸超大屏幕，专为影音娱乐与轻办公打造。内置小米澎湃OS，多屏协同更流畅。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/406366/12/8864/160336/69be624dFb80f40df/00835a05a0294819.png"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/6d9541eb1097869894920216577/1097_616_1_764a28864_f.mp4?source=1&h265=1147_4061637049_2_46b5e2969.mp4",
+    "ai_summary": "小米平板7 Max，14寸巨屏娱乐办公",
+    "ai_tags": [{"value": "平板电脑", "category": "品类"}, {"value": "小米", "category": "品牌"}]
+  },
+  {
+    "title": "机械革命 极光 Pro",
+    "provider": "机械革命旗舰店",
+    "ad_text": "超高性价比游戏本，i7+RTX 4060仅需5999元！数量有限，抢完即止。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/444170/36/3668/144571/6a18f8c8F4e16a8c5/0083320320f8e663.jpg","https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/398483/27/10544/126122/69aa615eFc0617086/008332032072a83e.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "机械革命极光Pro，高性价比游戏本",
+    "ai_tags": [{"value": "游戏本", "category": "品类"}, {"value": "机械革命", "category": "品牌"}]
+  },
+  {
+    "title": "惠普 星Book Pro 14",
+    "provider": "惠普官方旗舰店",
+    "ad_text": "薯条logo高颜值，2.8K OLED护眼屏。进阶级轻薄办公本，白领好搭档。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/327598/10/4906/77192/689ee601F9de1fca9/dac04eec46f7e998.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "惠普星Book Pro 14，高颜值OLED屏",
+    "ai_tags": [{"value": "轻薄本", "category": "品类"}, {"value": "惠普", "category": "品牌"}]
+  },
+  {
+    "title": "微软 Surface Pro 12",
+    "provider": "微软官方旗舰店",
+    "ad_text": "二合一平板电脑标杆。分离式键盘设计，支持触屏与触控笔，移动办公零负担。",
+    "tab": "featured",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/321204/16/19668/31919/6884fe57Fa0b4eb29/f9d0a23dbcb7b1ed.png"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/104c96d11062831797979734017/1097_4675_1_635164c1e_f.mp4?source=1&h265=1133_2500_1_a3136f560_f.mp4",
+    "ai_summary": "Surface Pro 12二合一平板，移动办公标杆",
+    "ai_tags": [{"value": "二合一电脑", "category": "品类"}, {"value": "微软", "category": "品牌"}]
+  },
+  {
+    "title": "宏碁 掠夺者 擎 Neo",
+    "provider": "宏碁官方旗舰店",
+    "ad_text": "硬核电竞本，液态金属散热。支持一键超频，畅玩3A大作无压力。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/434002/19/21608/89356/6a0e5f67F84d81132/008332032051c24e.jpg",
+        "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/433820/25/19996/170396/6a0d1e90Fbcdfdbe1/0083320320d7d042.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "宏碁掠夺者游戏本，液金散热一键超频",
+    "ai_tags": [{"value": "游戏本", "category": "品类"}, {"value": "宏碁", "category": "品牌"}]
+  },
+  {
+    "title": "索尼 Bravia XR 85寸电视",
+    "provider": "索尼电视旗舰店",
+    "ad_text": "XR认知芯片，Mini LED面板。杜比视界+全景声，把影院搬回家。",
+    "tab": "featured",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/414311/12/13208/68848/69d8c22bF90414397/0083320320df5de5.jpg"],
+    "ad_video_audio": "https://jvod.300hu.com/vod/product/2041046342/21852/49e68c4fc7c646ebadf3caeb2e5bcc24.mp4?source=1&h265=1088_3000_1_0eb4005fc_f.mp4",
+    "ai_summary": "索尼XR芯片85寸电视，影院级体验",
+    "ai_tags": [{"value": "电视", "category": "品类"}, {"value": "索尼", "category": "品牌"}]
+  },
+  {
+    "title": "TCL 115寸 X11G Max",
+    "provider": "TCL官方旗舰店",
+    "ad_text": "两万级背光分区，峰值亮度5000nits。巨幕电视画质天花板，免费上门勘测安装。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/423068/5/4096/157081/69e597a9F50d05bbe/008332032005913b.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "TCL 115寸巨幕电视，两万级分区背光",
+    "ai_tags": [{"value": "电视", "category": "品类"}, {"value": "TCL", "category": "品牌"}]
+  },
+  {
+    "title": "海信 100寸 激光电视",
+    "provider": "海信官方旗舰店",
+    "ad_text": "全色激光显示技术，色彩真实更护眼。超薄贴墙入户无忧，享受沉浸式观影。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/286167/35/13224/71457/684ab252F6c559a73/ce8aa9ca1dcc05f4.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/64a64d201068575370918387713/1097_5000_1_40e55054a_f.mp4?source=1&h265=1133_2500_1_688e493f2_f.mp4",
+    "ai_summary": "海信100寸激光电视，全色更护眼",
+    "ai_tags": [{"value": "电视", "category": "品类"}, {"value": "海信", "category": "品牌"}]
+  },
+  {
+    "title": "美的 酷省电 空调大1.5匹",
+    "provider": "美的官方旗舰店",
+    "ad_text": "一级能效，ECO节能模式省电超25%。极速冷暖，低噪运行，整机6年保修。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/445513/31/8981/144113/6a1d9020Fc6623309/00833203201c11cc.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/42f6eaa31111328058483298305/1097_766_1_b1b4d7a73_f.mp4?source=1&h265=1147_4234644609_2_a47f453d5.mp4",
+    "ai_summary": "美的酷省电空调，一级能效，低噪运行",
+    "ai_tags": [{"value": "空调", "category": "品类"}, {"value": "美的", "category": "品牌"}]
+  },
+  {
+    "title": "格力 云锦3 新一级空调",
+    "provider": "格力官方旗舰店",
+    "ad_text": "56度高温自洁，出风更健康。光敏传感智能防直吹，格力核心科技。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/442274/12/9165/128576/6a1b053cF536f850e/008332032037da8e.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/60dc3e0e1078967257994928129/1097_5000_1_35d2ddb2f_f.mp4?source=1&h265=1133_2500_1_55f977b51_f.mp4",
+    "ai_summary": "格力云锦3空调，高温自洁智能防直吹",
+    "ai_tags": [{"value": "空调", "category": "品类"}, {"value": "格力", "category": "品牌"}]
+  },
+  {
+    "title": "海尔 500升 零距离平嵌冰箱",
+    "provider": "海尔官方旗舰店",
+    "ad_text": "底部散热设计，零距离贴合橱柜。阻氧干湿分储，全空间保鲜技术。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/340200/39/18724/115177/68e9d29aF39fbd07a/5a9b65d6ca519a3a.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/1ad81bc41002161214518792193/1097_4761_1_d35301be6_f.mp4?source=1&h265=1088_3000_1_fa957f2d8_f.mp4",
+    "ai_summary": "海尔平嵌冰箱，底部散热全空间保鲜",
+    "ai_tags": [{"value": "冰箱", "category": "品类"}, {"value": "海尔", "category": "品牌"}]
+  },
+  {
+    "title": "卡萨帝 融合洗干护理机",
+    "provider": "卡萨帝旗舰店",
+    "ad_text": "洗烘护一体，微米级水雾空气洗，丝绸羊毛放心洗。高端衣物护理专家。",
+    "tab": "featured",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/448343/13/913/176382/6a1d5bdbF8aeb0fbb/0083320320992b53.png"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/17cd76a51018834027958833153/1097_5000_1_d156d0a2a_f.mp4?source=1&h265=1088_3000_1_ba85ed7bf_f.mp4",
+    "ai_summary": "卡萨帝洗干护一体机，高端衣物空气洗",
+    "ai_tags": [{"value": "洗衣机", "category": "品类"}, {"value": "卡萨帝", "category": "品牌"}]
+  },
+  {
+    "title": "西门子 14套 嵌入式洗碗机",
+    "provider": "西门子家电旗舰店",
+    "ad_text": "晶蕾烘干技术，除菌率99.99%。智能洗涤程序，彻底解放双手。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/245311/18/16713/108922/66b06c39Fa52ac7db/42234f4497c8cb12.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/4f9f35b01040273003449978881/1097_5000_1_7c1c999a0_f.mp4?source=1&h265=1133_2500_1_61fd25dae_f.mp4",
+    "ai_summary": "西门子14套洗碗机，晶蕾烘干除菌",
+    "ai_tags": [{"value": "洗碗机", "category": "品类"}, {"value": "西门子", "category": "品牌"}]
+  },
+  {
+    "title": "追觅 X40 Pro 扫地机器人",
+    "provider": "追觅官方旗舰店",
+    "ad_text": "仿生机械臂外扩，边角清扫零死角。自动洗拖布+基站自清洁，彻底免维护。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/395322/37/19644/99892/69a41332Fa8638dba/00833203203b9dcd.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "追觅X40 Pro扫地机，机械臂外扩清扫无死角",
+    "ai_tags": [{"value": "扫地机器人", "category": "品类"}, {"value": "追觅", "category": "品牌"}]
+  },
+  {
+    "title": "石头 P20 Pro 扫拖一体机",
+    "provider": "石头科技旗舰店",
+    "ad_text": "越野底盘轻松越障，动态机械臂清扫。毛发防缠绕技术升级，养宠家庭福音。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/441085/13/10778/152555/6a1962c8F2f3e72be/008331e42838307d.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/6cc7453d1107358207494455297/1097_5000_1_e4a4cd82a_f.mp4?source=1&h265=1147_4188807158_3_ae5e5d40a.mp4",
+    "ai_summary": "石头P20 Pro扫拖机，毛发防缠绕养宠必备",
+    "ai_tags": [{"value": "扫地机器人", "category": "品类"}, {"value": "石头", "category": "品牌"}]
+  },
+  {
+    "title": "肯德基 疯狂星期四 满减券",
+    "provider": "肯德基",
+    "ad_text": "本周疯狂星期四，黄金脆皮鸡9.9元2块！葡式蛋挞29.9元8只。外卖到家同享优惠。",
+    "tab": "local",
+    "ad_images": ["https://img.alicdn.com/imgextra/i1/2209827186651/O1CN01JDGV6O1z0D41e928k_!!2209827186651.jpg_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "肯德基疯狂星期四，脆皮鸡9.9元2块",
+    "ai_tags": [{"value": "快餐", "category": "品类"}, {"value": "肯德基", "category": "品牌"}]
+  },
+  {
+    "title": "麦当劳 1+1随心配 涨量不涨价",
+    "provider": "麦当劳",
+    "ad_text": "经典1+1随心配仅需13.9元，新增双层吉士堡选项。下午茶首选，门店小程序即刻下单。",
+    "tab": "local",
+    "ad_images": ["https://img.alicdn.com/imgextra/i1/2673021852/O1CN010Q0xxC1PYGcMfru9K_!!2673021852.png_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "麦当劳随心配13.9元，新增双层吉士堡",
+    "ai_tags": [{"value": "快餐", "category": "品类"}, {"value": "麦当劳", "category": "品牌"}]
+  },
+  {
+    "title": "瑞幸咖啡 9.9元店庆券包",
+    "provider": "瑞幸咖啡",
+    "ad_text": "每周9.9元喝好咖啡！生椰拿铁、酱香拿铁均可兑换。新用户下载APP立得免费饮品杯。",
+    "tab": "local",
+    "ad_images": ["https://img.alicdn.com/imgextra/i4/2218178546136/O1CN01ZqK66f1vCLOqcxPfX_!!4611686018427382232-0-item_pic.jpg_q50.jpg_.webp",
+    "https://img.alicdn.com/imgextra/i1/2218178546136/O1CN01lANMDZ1vCLObOap6I_!!2218178546136.jpg_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "瑞幸咖啡9.9元券包，全场通兑",
+    "ai_tags": [{"value": "咖啡饮品", "category": "品类"}, {"value": "瑞幸", "category": "品牌"}]
+  },
+  {
+    "title": "喜茶 多肉葡萄 回归买一送一",
+    "provider": "喜茶",
+    "ad_text": "经典多肉葡萄年度回归！手剥葡萄果肉，清新绿妍茶底。本周末扫码下单享买一送一。",
+    "tab": "local",
+    "ad_images": ["https://img.alicdn.com/imgextra/i4/6000000003748/O1CN01aSdRY31dYdaTqu6Qt_!!6000000003748-0-at.jpg_q50.jpg_.webp",
+    "https://img.alicdn.com/imgextra/i3/6000000006133/O1CN01Bk7MNK1vAyCjRFkd7_!!6000000006133-0-at.jpg_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "喜茶多肉葡萄回归，周末买一送一",
+    "ai_tags": [{"value": "茶饮", "category": "品类"}, {"value": "喜茶", "category": "品牌"}]
+  },
+  {
+    "title": "奈雪的茶 霸气草莓 升级版",
+    "provider": "奈雪的茶",
+    "ad_text": "冬季限定霸气草莓升级！果肉增量30%，搭配软欧包套餐立减5元。",
+    "tab": "local",
+    "ad_images": ["https://img.alicdn.com/imgextra/i1/3246435765/O1CN01nvO3t61sSQPwMany5_!!4611686018427383221-0-item_pic.jpg_q50.jpg_.webp",
+    "https://img.alicdn.com/imgextra/i4/3246435765/O1CN01iRjGIJ1sSQPwcEAFL_!!3246435765.jpg_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "奈雪霸气草莓升级，搭配欧包立减",
+    "ai_tags": [{"value": "茶饮", "category": "品类"}, {"value": "奈雪的茶", "category": "品牌"}]
+  },
+  {
+    "title": "霸王茶姬 伯牙绝弦 会员日",
+    "provider": "霸王茶姬",
+    "ad_text": "原叶鲜奶茶，拒绝反式脂肪。每月15号会员日，全场饮品8折，周边限时兑换。",
+    "tab": "local",
+    "ad_images": ["https://gw.alicdn.com/imgextra/O1CN01tBlFzf1xkoRSxHVgD_!!2217636206482-0-picasso.jpg_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "霸王茶姬会员日，全场8折",
+    "ai_tags": [{"value": "茶饮", "category": "品类"}, {"value": "霸王茶姬", "category": "品牌"}]
+  },
+  {
+    "title": "必胜客 尊享比萨买一送一",
+    "provider": "必胜客",
+    "ad_text": "超级至尊比萨周二买一送一。榴莲多多、黑松露系列参与活动，堂食外送同享。",
+    "tab": "local",
+    "ad_images": ["https://img.alicdn.com/imgextra/i4/2652851772/O1CN01iTXE9o1OxcvSlflwR_!!2652851772.jpg_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "必胜客比萨周二买一送一",
+    "ai_tags": [{"value": "西餐", "category": "品类"}, {"value": "必胜客", "category": "品牌"}]
+  },
+  {
+    "title": "达美乐 比萨周二周三7折",
+    "provider": "达美乐",
+    "ad_text": "承诺30分钟必达，超时送免费比萨券。周二周三全场7折，经典意式手拍饼底极佳口感。",
+    "tab": "local",
+    "ad_images": ["https://img.alicdn.com/imgextra/i2/1828925132/O1CN015M5Hb11nmVRl4CV6A_!!1828925132.jpg_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "达美乐比萨周二周三7折，30分钟必达",
+    "ai_tags": [{"value": "西餐", "category": "品类"}, {"value": "达美乐", "category": "品牌"}]
+  },
+  {
+    "title": "凑凑火锅 台式奶茶火锅双人餐",
+    "provider": "凑凑",
+    "ad_text": "招牌台式麻辣锅+大红袍珍珠奶茶。双人套餐现价228元，鸭血豆腐无限续加。",
+    "tab": "local",
+    "ad_images": ["https://img.alicdn.com/imgextra/i2/2209156452589/O1CN01hse2EM1UzoT2feC69_!!2209156452589.jpg_q50.jpg_.webp",
+    "https://img.alicdn.com/imgextra/i2/2209156452589/O1CN012LIwua1UzoT0hZMWJ_!!2209156452589.jpg_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "凑凑火锅双人套餐228元，鸭血豆腐无限续",
+    "ai_tags": [{"value": "火锅", "category": "品类"}, {"value": "凑凑", "category": "品牌"}]
+  },
+  {
+    "title": "太二酸菜鱼 吃鱼拯救世界",
+    "provider": "太二",
+    "ad_text": "老坛子酸菜鱼，酸菜比鱼好吃。四人同行一人免单（限指定门店参与）。",
+    "tab": "local",
+    "ad_images": ["https://img.alicdn.com/imgextra/i2/2211835486363/O1CN01ySGBww1wsJIpvlU9Q_!!4611686018427379867-2-item_pic.png_q50.jpg_.webp",
+    "https://img.alicdn.com/imgextra/i2/2211835486363/O1CN01ytr1Q21wsJIL6Q1lD_!!2211835486363.png_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "太二酸菜鱼活动，四人同行一人免单",
+    "ai_tags": [{"value": "餐饮", "category": "品类"}, {"value": "太二", "category": "品牌"}]
+  },
+  {
+    "title": "农夫山泉 东方树叶 15瓶整箱装",
+    "provider": "农夫山泉旗舰店",
+    "ad_text": "0糖0卡0脂，健康茶饮首选。茉莉花茶、乌龙茶混合装，整箱低至45元，限时包邮。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img.alicdn.com/imgextra/i2/2220641846526/O1CN01tY8MaM1y4xoZbjsYE_!!4611686018427380990-0-item_pic.jpg_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "东方树叶整箱45元，0糖健康茶饮",
+    "ai_tags": [{"value": "饮料", "category": "品类"}, {"value": "农夫山泉", "category": "品牌"}]
+  },
+  {
+    "title": "可口可乐 迷你罐 24听装",
+    "provider": "可口可乐旗舰店",
+    "ad_text": "200ml迷你罐，一口畅爽无负担。聚会必备，满2箱打85折，送品牌周边玻璃杯。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img.alicdn.com/imgextra/i3/6000000001007/O1CN01D1lDgM1JJFygbQdG2_!!6000000001007-0-at.jpg_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "可口可乐迷你罐满2箱85折送水杯",
+    "ai_tags": [{"value": "饮料", "category": "品类"}, {"value": "可口可乐", "category": "品牌"}]
+  },
+  {
+    "title": "伊利 安慕希 常温酸奶",
+    "provider": "伊利官方旗舰店",
+    "ad_text": "浓郁口感，营养美味。原味/蓝莓味混合装，整箱特惠39.9元，早餐下午茶百搭。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img.alicdn.com/imgextra/i4/2212264099506/O1CN01WZY3F42K5o6t9AOsJ_!!2212264099506.jpg_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "安慕希常温酸奶整箱39.9元",
+    "ai_tags": [{"value": "乳制品", "category": "品类"}, {"value": "伊利", "category": "品牌"}]
+  },
+  {
+    "title": "认养一头牛 纯牛奶 整箱装",
+    "provider": "认养一头牛旗舰店",
+    "ad_text": "出自GAP认证牧场，高钙高蛋白，口感纯正。买二送一，多买多惠，家庭常备。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img.alicdn.com/imgextra/i4/2206562014251/O1CN01VVZ3fV1hH0oYthOy4_!!2206562014251-0-scmitem6000.jpg_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "认养一头牛纯牛奶买二送一",
+    "ai_tags": [{"value": "乳制品", "category": "品类"}, {"value": "认养一头牛", "category": "品牌"}]
+  },
+  {
+    "title": "三只松鼠 每日坚果 大礼包",
+    "provider": "三只松鼠旗舰店",
+    "ad_text": "30包科学配比，巴旦木、核桃、蔓越莓一应俱全。无添加更健康，领券立减30元。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img.alicdn.com/imgextra/i2/6000000005743/O1CN01ii8liv1sILkPZdHCZ_!!6000000005743-0-at.jpg_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "三只松鼠每日坚果领券立减30",
+    "ai_tags": [{"value": "零食", "category": "品类"}, {"value": "三只松鼠", "category": "品牌"}]
+  },
+  {
+    "title": "良品铺子 猪肉脯 靖江风味",
+    "provider": "良品铺子旗舰店",
+    "ad_text": "精选猪后腿肉，慢火烘烤，肉香浓郁有嚼劲。第二件半价，追剧解馋必备神仙零食。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/448809/32/795/267777/6a1d64dbFb3f0db7a/0083320320a3f34c.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/053157301060511482918363137/1097_5000_1_880bf3924_f.mp4?source=1&h265=1133_2500_1_3149e072f_f.mp4",
+    "ai_summary": "良品铺子猪肉脯第二件半价",
+    "ai_tags": [{"value": "零食", "category": "品类"}, {"value": "良品铺子", "category": "品牌"}]
+  },
+  {
+    "title": "百草味 芒果干 500g大包装",
+    "provider": "百草味旗舰店",
+    "ad_text": "精选热带大芒果，厚切工艺，酸甜软糯不粘牙。满99元减50元，囤货好时机。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s228x228_jfs/t1/189484/15/53280/146271/67417e28F0437a3a8/11e39ea149554afa.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "百草味芒果干满99减50",
+    "ai_tags": [{"value": "零食", "category": "品类"}, {"value": "百草味", "category": "品牌"}]
+  },
+  {
+    "title": "奥利奥 夹心饼干 经典口味",
+    "provider": "亿滋官方旗舰店",
+    "ad_text": "扭一扭，舔一舔，泡一泡。巧克力原味+草莓味多口味组合，超市同款立省15元。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/433290/33/19206/134625/6a103814F0864ffa9/00833203205783b2.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/61ca7a8e1003713596671201281/1097_4798_1_c67a1204b_f.mp4?source=1&h265=1088_3000_1_b20b34191_f.mp4",
+    "ai_summary": "奥利奥夹心饼干组合装立省15元",
+    "ai_tags": [{"value": "零食", "category": "品类"}, {"value": "奥利奥", "category": "品牌"}]
+  },
+  {
+    "title": "乐事 薯片 混合口味大礼包",
+    "provider": "百事食品官方旗舰店",
+    "ad_text": "原味、黄瓜味、番茄味经典口味齐聚。超大满足包，快乐水的好搭档，限时包邮。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/324072/9/3671/246669/689adcbbFaa277007/8d9791afcd1c4219.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/4c1f7a6atransbjngwcloud1oss/5f69de3c329621416188698625/v.f30.mp4",
+    "ai_summary": "乐事薯片大礼包限时包邮",
+    "ai_tags": [{"value": "零食", "category": "品类"}, {"value": "乐事", "category": "品牌"}]
+  },
+  {
+    "title": "元气森林 气泡水 0糖0卡",
+    "provider": "元气森林旗舰店",
+    "ad_text": "夏黑葡萄味上新！0糖0卡0脂，强劲气泡畅爽体验。新客首单满50减20。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/427198/11/8525/223981/69f2fe03F3d9172d6/008332032022b554.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "元气森林气泡水新客满50减20",
+    "ai_tags": [{"value": "饮料", "category": "品类"}, {"value": "元气森林", "category": "品牌"}]
+  },
+  {
+    "title": "雅诗兰黛 第七代小棕瓶 精华",
+    "provider": "雅诗兰黛官方旗舰店",
+    "ad_text": "抗老修护，夜间直达肌底。买50ml送50ml同款正装量。紧致淡纹，守护年轻肌肤。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/449605/26/254/139460/6a1d3570F5407a8e8/0083320320bbde46.png"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/14274fcf1109781714685698049/1097_3661_1_bacdd54da_f.mp4?source=1&h265=1147_4216347962_3_e56cd3450.mp4",
+    "ai_summary": "雅诗兰黛小棕瓶买50ml送50ml",
+    "ai_tags": [{"value": "护肤品", "category": "品类"}, {"value": "雅诗兰黛", "category": "品牌"}]
+  },
+  {
+    "title": "兰蔻 第二代小黑瓶 肌底液",
+    "provider": "兰蔻官方旗舰店",
+    "ad_text": "强维稳，快修护。改善粗糙暗沉，七天见证肌肤细腻透亮。会员加赠定制化妆包。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/436786/30/13805/77426/6a0de4aeFa6121f9f/00832ee3e880adf4.jpg",
+    "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/330372/19/2030/115168/68a6f35cF4604940b/b4f079c80a993aff.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/2dae052f1012324933831819265/1097_3000_1_d1f3605d9_f.mp4?source=1&h265=1088_2000_1_f5f1b3b89_f.mp4",
+    "ai_summary": "兰蔻小黑瓶会员赠化妆包",
+    "ai_tags": [{"value": "护肤品", "category": "品类"}, {"value": "兰蔻", "category": "品牌"}]
+  },
+  {
+    "title": "海蓝之谜 奇迹面霜",
+    "provider": "La Mer官方旗舰店",
+    "ad_text": "灵魂成分神奇活性精萃，深层修护脆弱敏感肌。奢宠礼盒，尊享免息及定制刻字服务。",
+    "tab": "featured",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/434705/26/18769/155835/6a0dddf5F3480137d/0083320320023dab.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/46df412d1079440839762116609/1097_5000_1_3bc5a0624_f.mp4?source=1&h265=1133_2500_1_4af0d9218_f.mp4",
+    "ai_summary": "海蓝之谜奇迹面霜尊享免息",
+    "ai_tags": [{"value": "护肤品", "category": "品类"}, {"value": "海蓝之谜", "category": "品牌"}]
+  },
+  {
+    "title": "SK-II 神仙水 护肤精华露",
+    "provider": "SK-II官方旗舰店",
+    "ad_text": "蕴含核心成分PITERA，平衡水油，晶透美肌。大促特惠，抢230ml正装量加赠礼。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/445047/28/9346/149352/6a1d818aF05117bc9/00833844b0b4ddf6.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/06484c141013133600013471745/1097_5000_1_68b548fe9_f.mp4?source=1&h265=1088_3000_1_a6699753a_f.mp4",
+    "ai_summary": "SK-II神仙水大促赠礼",
+    "ai_tags": [{"value": "护肤品", "category": "品类"}, {"value": "SK-II", "category": "品牌"}]
+  },
+  {
+    "title": "资生堂 红腰子 精华液",
+    "provider": "资生堂官方旗舰店",
+    "ad_text": "强韧肌肤屏障，抵御外界损伤。维稳第一步，水润不黏腻。前1000名付定金加赠眼霜。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/190424/28/47744/105968/66f4d365F457368c3/5f1398934516a878.jpg",
+    "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/207892/18/43650/79757/66f4d33fF168d2e54/2fabb8181b3a602d.jpg",
+    "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/188177/8/47426/122056/66f4d33fFf22acbfa/4c781c25784e9fcc.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "资生堂红腰子付定金赠眼霜",
+    "ai_tags": [{"value": "护肤品", "category": "品类"}, {"value": "资生堂", "category": "品牌"}]
+  },
+  {
+    "title": "YSL 圣罗兰 小金条 哑光口红",
+    "provider": "YSL官方旗舰店",
+    "ad_text": "高定皮革哑光质地，浓郁显色不拔干。爆款#1966红棕色现货发售，免费刻字送礼首选。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/437985/22/817/137262/6a0ddefdFb3a3c332/00832ee3e80d0f68.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/0e953c2b1056982726878580737/1097_5000_1_69683ec4b_f.mp4?source=1&h265=1133_2500_1_0b5ee2b38_f.mp4",
+    "ai_summary": "YSL小金条口红免费刻字送礼",
+    "ai_tags": [{"value": "彩妆", "category": "品类"}, {"value": "YSL", "category": "品牌"}]
+  },
+  {
+    "title": "Dior 迪奥 烈艳蓝金 唇膏",
+    "provider": "Dior官方旗舰店",
+    "ad_text": "传奇红唇#999，一抹气场全开。丝绒/哑光/缎光多重质地可选。限定高定礼盒包装。",
+    "tab": "featured",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/432613/16/10923/26086/6a0d573aF256586f4/00833203206c5b54.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/0f9897fa1060252496352657409/1097_5000_1_e93cdc753_f.mp4?source=1&h265=1133_2500_1_0c0c70977_f.mp4",
+    "ai_summary": "Dior 999口红高定礼盒包装",
+    "ai_tags": [{"value": "彩妆", "category": "品类"}, {"value": "Dior", "category": "品牌"}]
+  },
+  {
+    "title": "MAC 魅可 子弹头 口红",
+    "provider": "MAC官方旗舰店",
+    "ad_text": "百变色号，经典不衰。Chili、Ruby Woo火爆热销中。两支装立享8折，学生认证更优惠。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/444854/39/4525/95600/6a199386Ff7f11c45/00832ee3e8a11cac.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/29459d17931599813442613249/1097_5000_1_4ffba0a1e_f.mp4",
+    "ai_summary": "MAC子弹头两支8折",
+    "ai_tags": [{"value": "彩妆", "category": "品类"}, {"value": "MAC", "category": "品牌"}]
+  },
+  {
+    "title": "欧莱雅 紫熨斗 全脸眼霜",
+    "provider": "欧莱雅官方旗舰店",
+    "ad_text": "玻色因PRO加持，淡化全脸细纹。眼部、法令纹、抬头纹一管搞定。买一支送同等容量。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/440591/10/8533/238438/6a17eaefFa4ef3c4b/00834655dc327cb6.png",
+    "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/435433/21/16580/349737/6a0d5706Fe17ed85c/00834655dcbd1112.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "欧莱雅紫熨斗眼霜买一送一量",
+    "ai_tags": [{"value": "护肤品", "category": "品类"}, {"value": "欧莱雅", "category": "品牌"}]
+  },
+  {
+    "title": "珀莱雅 早C晚A 护肤套装",
+    "provider": "珀莱雅旗舰店",
+    "ad_text": "双抗精华+红宝石精华。科学抗老提亮组合，日间抗氧，夜间抗老。套装直降150元。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/434766/36/19065/104846/6a0d9618F3cb79a3f/0083320320a3a91a.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/vod/product/53330782-2a57-4628-83c6-fb0f135f59b4/1087_1981_1_db61d858f_f.mp4?source=1&h265=1088_1981_1_08d7e8e7b_f.mp4",
+    "ai_summary": "珀莱雅早C晚A套装直降150元",
+    "ai_tags": [{"value": "护肤品", "category": "品类"}, {"value": "珀莱雅", "category": "品牌"}]
+  },
+  {
+    "title": "Nike Air Force 1 '07",
+    "provider": "Nike官方旗舰店",
+    "ad_text": "经典小白鞋，百搭不过时。采用优质皮革材质，内置Air气垫。加入会员免邮费。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s228x228_jfs/t1/350498/21/3780/15803/68c81e3cF6898bb84/a9fc737e87d97740.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "Nike AF1小白鞋，会员免邮费",
+    "ai_tags": [{"value": "运动鞋", "category": "品类"}, {"value": "Nike", "category": "品牌"}]
+  },
+  {
+    "title": "Adidas Samba OG 德训鞋",
+    "provider": "Adidas官方旗舰店",
+    "ad_text": "复古潮流风向标，黑白经典配色补货上架。街头穿搭必备单品，新客立减50。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s228x228_jfs/t1/445011/11/3322/54171/6a1966cfF98edd59f/00832ee3e8e6a7c1.png"],
+    "ad_video_audio": null,
+    "ai_summary": "Adidas Samba OG补货，新客立减50",
+    "ai_tags": [{"value": "休闲鞋", "category": "品类"}, {"value": "Adidas", "category": "品牌"}]
+  },
+  {
+    "title": "安踏 C10 Pro 碳板跑鞋",
+    "provider": "安踏官方旗舰店",
+    "ad_text": "全掌碳板推进，氮科技中底缓震升级。专为马拉松竞速打造。国货之光，首发价立省200。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s228x228_jfs/t1/445361/17/6636/88200/6a1ab738F8be4a0f7/008332032004415c.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "安踏C10 Pro碳板跑鞋首发立省200",
+    "ai_tags": [{"value": "运动鞋", "category": "品类"}, {"value": "安踏", "category": "品牌"}]
+  },
+  {
+    "title": "李宁 䨻 飞电3 竞速跑鞋",
+    "provider": "李宁官方旗舰店",
+    "ad_text": "李宁䨻轻弹科技，跖枕科技助力每一步推进。重量仅190g，助你PB创新高。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/129974/21/42273/101059/6650192bF506533fb/3250c5981af4dcd7.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/vod/product/1298682508/21852/1087_1272_1_57f6323a3_f.mp4?source=1&h265=1088_1272_1_c68e8d30c_f.mp4",
+    "ai_summary": "李宁飞电3竞速跑鞋，䨻科技中底",
+    "ai_tags": [{"value": "运动鞋", "category": "品类"}, {"value": "李宁", "category": "品牌"}]
+  },
+  {
+    "title": "Vans Old Skool 经典滑板鞋",
+    "provider": "Vans官方旗舰店",
+    "ad_text": "黑白侧边条纹，华夫大底耐磨防滑。滑板与街头文化的象征，两件8.5折优惠中。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/444178/1/6939/160022/6a1ac5a9F8b5f6557/00832ee3e99b0ad2.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/vod/product/09fd353b-09ad-4d87-8487-b71d2cca8261/1087_5000_1_a643acca2_f.mp4?source=1&h265=1088_3000_1_8f2e84be7_f.mp4",
+    "ai_summary": "Vans Old Skool滑板鞋两件8.5折",
+    "ai_tags": [{"value": "休闲鞋", "category": "品类"}, {"value": "Vans", "category": "品牌"}]
+  },
+  {
+    "title": "始祖鸟 Alpha SV 冲锋衣",
+    "provider": "始祖鸟官方旗舰店",
+    "ad_text": "GORE-TEX PRO顶级防水透气面料。恶劣高山环境的极致防护。户外徒步探险首选装备。",
+    "tab": "featured",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/440965/29/15723/83723/6a1c1ff3Fa06519f9/00832ee3e8f00274.png"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/64b72fb31104836969417015297/1097_5000_1_f83a1d4c3_f.mp4?source=1&h265=1147_4153520173_3_22ed9f786.mp4",
+    "ai_summary": "始祖鸟Alpha SV冲锋衣，顶级防水透气",
+    "ai_tags": [{"value": "户外服饰", "category": "品类"}, {"value": "始祖鸟", "category": "品牌"}]
+  },
+  {
+    "title": "北面 1996 NUPTSE 羽绒服",
+    "provider": "The North Face旗舰店",
+    "ad_text": "700蓬松度鹅绒，轻盈保暖。经典撞色设计，防泼水面料。冬季街头保暖潮搭神器。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/167513/11/40888/80006/673c4db5F9e41bd9a/27e159b00a49a7de.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/7be057051044661124966981633/1097_728_1_e353e4e7d_f.mp4?source=1&h265=1133_728_1_45948da44_f.mp4",
+    "ai_summary": "北面1996羽绒服，700蓬松度保暖",
+    "ai_tags": [{"value": "户外服饰", "category": "品类"}, {"value": "北面", "category": "品牌"}]
+  },
+  {
+    "title": "波司登 极寒系列 羽绒服",
+    "provider": "波司登官方旗舰店",
+    "ad_text": "抵御-30℃严寒，蓄热内里科技。修身版型告别臃肿，大毛领设计更防风。现货闪发。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/440553/7/14420/88134/6a1a79e6F96f00399/00832ee3e8b4fa11.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/21d076601028780234017660929/1097_5000_1_60a8afdfe_f.mp4?source=1&h265=1133_2500_1_844a9722e_f.mp4",
+    "ai_summary": "波司登极寒羽绒服，抵御-30℃严寒",
+    "ai_tags": [{"value": "服饰", "category": "品类"}, {"value": "波司登", "category": "品牌"}]
+  },
+  {
+    "title": "Lululemon Align 瑜伽裤",
+    "provider": "Lululemon官方旗舰店",
+    "ad_text": "Nulu裸感面料，如黄油般柔软顺滑。高腰修身设计，运动日常皆宜。多色上新。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/336129/21/11107/37777/68c7d234F3c9b9a7b/f4194a3e447923d3.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/3d086bef1030431665527287809/1097_5000_1_77854c897_f.mp4?source=1&h265=1133_2500_1_21897faab_f.mp4",
+    "ai_summary": "Lululemon Align瑜伽裤，Nulu裸感面料",
+    "ai_tags": [{"value": "运动服饰", "category": "品类"}, {"value": "Lululemon", "category": "品牌"}]
+  },
+  {
+    "title": "Levi's 501 经典直筒牛仔裤",
+    "provider": "Levi's官方旗舰店",
+    "ad_text": "排扣门襟，直筒裁剪。150周年纪念版复刻，原色丹宁越养越有味。领券满300减40。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/446370/8/1835/121483/6a1b0833Fd6823565/00832ee3e8a1ac1c.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/1707ee1d1100005471631306753/1097_5000_1_7b97bce74_f.mp4?source=1&h265=1147_4091447028_3_8829447c8.mp4",
+    "ai_summary": "Levi's 501牛仔裤领券满300减40",
+    "ai_tags": [{"value": "服饰", "category": "品类"}, {"value": "Levi's", "category": "品牌"}]
+  },
+  {
+    "title": "携程 三亚5天4晚自由行",
+    "provider": "携程旅行",
+    "ad_text": "入住亚特兰蒂斯/红树林，含双人往返机票。无限次水世界门票，专属接机服务，起价2999/人。",
+    "tab": "local",
+    "ad_images": ["https://img.alicdn.com/bao/uploaded/i2/6000000006260/O1CN01DCbInY1w78VM7zecq_!!6000000006260-0-itemdesc.jpg_400x400.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "三亚5天4晚自由行含机票起价2999",
+    "ai_tags": [{"value": "旅游", "category": "品类"}, {"value": "携程", "category": "品牌"}]
+  },
+  {
+    "title": "飞猪 迪士尼 尊享一日票",
+    "provider": "飞猪旅行",
+    "ad_text": "上海迪士尼乐园一日门票，早鸟预定立减50元。包含一套园区餐饮抵用券，畅玩童话世界。",
+    "tab": "local",
+    "ad_images": ["https://img.alicdn.com/bao/uploaded/i3/6000000004355/O1CN01ZdOseH1i2e0h9MmUJ_!!6000000004355-2-itemdesc.png_400x400.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "上海迪士尼一日票早鸟立减50",
+    "ai_tags": [{"value": "门票", "category": "品类"}, {"value": "飞猪", "category": "品牌"}]
+  },
+  {
+    "title": "万豪旅享家 酒店通用房券",
+    "provider": "万豪国际",
+    "ad_text": "全国80城200家酒店通用，含双人自助早餐。周末节假日可用，未核销随时退。",
+    "tab": "local",
+    "ad_images": ["https://img.alicdn.com/imgextra/i3/2221410538390/O1CN01CBfnZ32Bqg6iXiHdr_!!2221410538390.jpg_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "万豪全国酒店房券含双早随时退",
+    "ai_tags": [{"value": "酒店", "category": "品类"}, {"value": "万豪", "category": "品牌"}]
+  },
+  {
+    "title": "希尔顿 欢朋酒店 连住特惠",
+    "provider": "希尔顿",
+    "ad_text": "商旅精选，免费Wi-Fi与健身房。连住3晚享85折优惠，金卡会员额外送欢迎水果。",
+    "tab": "local",
+    "ad_images": ["https://img.alicdn.com/bao/uploaded/i2/6000000002799/O1CN01eq9XWs1WXzgeB1AVx_!!6000000002799-0-itemdesc.jpg_430x430xz.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "希尔顿欢朋连住3晚享85折",
+    "ai_tags": [{"value": "酒店", "category": "品类"}, {"value": "希尔顿", "category": "品牌"}]
+  },
+  {
+    "title": "国航 随心飞 2026版",
+    "provider": "中国国际航空",
+    "ad_text": "周末无限次飞行，覆盖全国超300条航线。仅需3999元，开启说走就走的旅行。限量发售。",
+    "tab": "featured",
+    "ad_images": ["https://img.alicdn.com/imgextra/i2/824000199/O1CN01s1nWRZ1DLBwfnanAb_!!824000199.png_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "国航随心飞周末无限次飞行3999元",
+    "ai_tags": [{"value": "机票", "category": "品类"}, {"value": "国航", "category": "品牌"}]
+  },
+  {
+    "title": "南航 快乐飞 会员日促销",
+    "provider": "中国南方航空",
+    "ad_text": "每月28日会员日，国内机票1折起。抽免票大奖，里程兑换限时半价。立刻登录APP查看。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img.alicdn.com/imgextra/i3/824000199/O1CN01YRvaBs1DLBwer1w4i_!!824000199.png_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "南航会员日机票1折起抽免票",
+    "ai_tags": [{"value": "机票", "category": "品类"}, {"value": "南航", "category": "品牌"}]
+  },
+  {
+    "title": "环球影城 优速通 套票",
+    "provider": "北京环球度假区",
+    "ad_text": "单日门票+5项优速通免排队。畅玩哈利波特与侏罗纪世界。现在预定附赠小黄人冰淇淋一份。",
+    "tab": "local",
+    "ad_images": ["https://img.alicdn.com/bao/uploaded/i2/6000000007638/O1CN01hxivap26IGIKMEwt8_!!6000000007638-0-itemdesc.jpg_400x400.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "北京环球影城优速通套票赠冰淇淋",
+    "ai_tags": [{"value": "门票", "category": "品类"}, {"value": "环球影城", "category": "品牌"}]
+  },
+  {
+    "title": "长隆 野生动物世界 家庭套票",
+    "provider": "长隆度假区",
+    "ad_text": "2大1小家庭套票特惠。乘坐小火车穿越五大洲，看全球珍稀动物。周末不加价。",
+    "tab": "local",
+    "ad_images": ["https://img.alicdn.com/bao/uploaded/i2/6000000007638/O1CN01hxivap26IGIKMEwt8_!!6000000007638-0-itemdesc.jpg_400x400.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "长隆野生动物园家庭套票特惠周末不加价",
+    "ai_tags": [{"value": "门票", "category": "品类"}, {"value": "长隆", "category": "品牌"}]
+  },
+  {
+    "title": "神州租车 新客首日0元租",
+    "provider": "神州租车",
+    "ad_text": "上万网点，自驾随心。新注册用户首日基础租金0元，异地还车免服务费，百款车型可选。",
+    "tab": "local",
+    "ad_images": ["https://picsum.photos/seed/ad79/400/600"],
+    "ad_video_audio": null,
+    "ai_summary": "神州租车新客首日0元异地还车免服务费",
+    "ai_tags": [{"value": "租车", "category": "品类"}, {"value": "神州租车", "category": "品牌"}]
+  },
+  {
+    "title": "滴滴出行 周末打车 5折起",
+    "provider": "滴滴出行",
+    "ad_text": "周末领打车神券，快车专车低至5折起！新客最高得100元出行礼包，安全到家无忧。",
+    "tab": "local",
+    "ad_images": ["https://img.alicdn.com/imgextra/i1/2218145502563/O1CN01qYwTVK1UnuFsDjm6U_!!2218145502563.png_q50.jpg_.webp"],
+    "ad_video_audio": null,
+    "ai_summary": "滴滴出行周末打车5折起送新客礼包",
+    "ai_tags": [{"value": "出行", "category": "品类"}, {"value": "滴滴", "category": "品牌"}]
+  },
+  {
+    "title": "特斯拉 Model 3 焕新版",
+    "provider": "特斯拉中国",
+    "ad_text": "全新设计语言，续航里程提升。后排娱乐屏，静谧座舱体验。首付2.99万起，限时低息金融。",
+    "tab": "featured",
+    "ad_images": ["https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-3-Premium-Hero-Carousel-Desktop-CN.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "特斯拉Model 3焕新版限时低息首付2.99万起",
+    "ai_tags": [{"value": "汽车", "category": "品类"}, {"value": "特斯拉", "category": "品牌"}]
+  },
+  {
+    "title": "比亚迪 汉 EV 荣耀版",
+    "provider": "比亚迪汽车",
+    "ad_text": "降价增配，极致性价比。715km超长续航，DiLink智能网联系统。现车充足，下单享8000元置换补贴。",
+    "tab": "ecommerce",
+    "ad_images": ["https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-3-Premium-Hero-Carousel-Desktop-CN.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "比亚迪汉EV荣耀版享8000置换补贴",
+    "ai_tags": [{"value": "汽车", "category": "品类"}, {"value": "比亚迪", "category": "品牌"}]
+  },
+  {
+    "title": "蔚来 ET5T 智能旅行车",
+    "provider": "蔚来汽车",
+    "ad_text": "最美瓦罐，全景天幕，换电仅需3分钟。租用电池方案购车立减7万。预约试驾送专属咖啡杯。",
+    "tab": "featured",
+    "ad_images": ["https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-3-Premium-Hero-Carousel-Desktop-CN.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "蔚来ET5T旅行车电池租用方案立减7万",
+    "ai_tags": [{"value": "汽车", "category": "品类"}, {"value": "蔚来", "category": "品牌"}]
+  },
+  {
+    "title": "理想 L6 家庭智能SUV",
+    "provider": "理想汽车",
+    "ad_text": "为年轻家庭打造的大五座SUV。增程动力续航1390km，冰箱彩电大沙发一应俱全。限时定金膨胀。",
+    "tab": "ecommerce",
+    "ad_images": ["https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-3-Premium-Hero-Carousel-Desktop-CN.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "理想L6家庭智能SUV限时定金膨胀",
+    "ai_tags": [{"value": "汽车", "category": "品类"}, {"value": "理想", "category": "品牌"}]
+  },
+  {
+    "title": "小鹏 MONA M03 纯电轿车",
+    "provider": "小鹏汽车",
+    "ad_text": "10万级智能高阶智驾普及者。全场景语音语音，超低风阻设计。购车免息，赠送家充桩。",
+    "tab": "ecommerce",
+    "ad_images": ["https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-3-Premium-Hero-Carousel-Desktop-CN.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "小鹏MONA M03购车免息赠家充桩",
+    "ai_tags": [{"value": "汽车", "category": "品类"}, {"value": "小鹏", "category": "品牌"}]
+  },
+  {
+    "title": "宝马 3系 豪华运动轿车",
+    "provider": "宝马官方",
+    "ad_text": "精准操控，豪华座舱。长轴距版空间更宽敞。0首付或日供低至99元，轻松开宝马。",
+    "tab": "local",
+    "ad_images": ["https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-3-Premium-Hero-Carousel-Desktop-CN.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "宝马3系0首付日供低至99元",
+    "ai_tags": [{"value": "汽车", "category": "品类"}, {"value": "宝马", "category": "品牌"}]
+  },
+  {
+    "title": "索尼 PS5 Pro 游戏主机",
+    "provider": "PlayStation官方旗舰店",
+    "ad_text": "性能大幅提升，支持4K 120Hz光追。PSSR画质增强技术，畅享顶级3A大作。现货发售不加价。",
+    "tab": "featured",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/375513/35/908/200268/692ff955F7d3a1910/5b5a846122a77326.png"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/4a1fb04e1110277186982551553/1097_5000_1_81cc89545_f.mp4?source=1&h265=1147_4222952802_3_dc4fca747.mp4",
+    "ai_summary": "索尼PS5 Pro性能提升现货发售不加价",
+    "ai_tags": [{"value": "游戏主机", "category": "品类"}, {"value": "PlayStation", "category": "品牌"}]
+  },
+  {
+    "title": "任天堂 Switch OLED 塞尔达限定版",
+    "provider": "Nintendo官方",
+    "ad_text": "7英寸OLED绚丽大屏，限定版Joy-Con配色。随时随地，想玩就玩。购买即送钢化膜与收纳包。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s228x228_jfs/t1/390885/32/12688/186343/698308bbF376dd099/00833203207986d4.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "Switch OLED塞尔达限定版送收纳包",
+    "ai_tags": [{"value": "游戏主机", "category": "品类"}, {"value": "任天堂", "category": "品牌"}]
+  },
+  {
+    "title": "微软 Xbox Series X 1TB黑",
+    "provider": "Xbox官方",
+    "ad_text": "地表最强性能主机。配合XGP订阅服务，畅玩数百款佳作。快速唤醒功能让你秒进游戏。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/433728/40/14382/46951/6a0ac121F62abdb1a/00833203203479a7.jpg"],
+    "ad_video_audio": "https://jvod.300hu.com/vod/product/37049156-a99c-4aa8-a47e-af9ee824ff77/7032d739ab7948598f277b4da902a11b.mp4?source=2&h265=h265/113074/43eae94ae20146209b98b592f25da22a.mp4",
+    "ai_summary": "Xbox Series X最强性能主机畅玩XGP",
+    "ai_tags": [{"value": "游戏主机", "category": "品类"}, {"value": "Xbox", "category": "品牌"}]
+  },
+  {
+    "title": "Steam Deck OLED 掌机",
+    "provider": "Steam硬件官方",
+    "ad_text": "PC游戏神机。90Hz OLED屏幕，续航提升50%。随时随地访问你的Steam库。现货秒发包税包邮。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t20280531/442908/7/9506/113774/6a1d5a43F30e9831f/0a02320320aa2721.jpg"],
+    "ad_video_audio": "https://jvod.300hu.com/vod/product/1207199107/21852/7c939fda78c94d54a2827c898a1626cb.mp4",
+    "ai_summary": "Steam Deck OLED掌机续航提升50%现货包邮",
+    "ai_tags": [{"value": "游戏掌机", "category": "品类"}, {"value": "Steam", "category": "品牌"}]
+  },
+  {
+    "title": "Meta Quest 3 VR头显",
+    "provider": "Meta海外旗舰店",
+    "ad_text": "全彩透视MR混合现实体验，Pancake透镜更轻薄。内置海量VR游戏，居家健身与娱乐神器。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t20280518/433475/38/18722/175722/6a0bdd5dF8ab15ecf/0a02320320151eeb.jpg"],
+    "ad_video_audio": "https://vod.300hu.com/24/4c1f7a6atransbjngwcloud1oss/23a162de1035223104262029313/1097_699_1_deeaeb141_f.mp4?source=1&h265=1133_699_1_bb7ad6a74_f.mp4",
+    "ai_summary": "Quest 3 VR头显全彩透视MR体验",
+    "ai_tags": [{"value": "VR设备", "category": "品类"}, {"value": "Meta", "category": "品牌"}]
+  },
+  {
+    "title": "米哈游 原神 5.0大版本更新",
+    "provider": "米哈游",
+    "ad_text": "火之国纳塔正式开启！全新龙众伙伴，独特机制。上线即领1600原石与限定翅膀。马上下载！",
+    "tab": "featured",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/421235/10/14648/92586/69e86cabFc1b0bde3/0083320320ec7709.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "原神5.0版本更新纳塔开启上线领原石",
+    "ai_tags": [{"value": "游戏", "category": "品类"}, {"value": "米哈游", "category": "品牌"}]
+  },
+  {
+    "title": "崩坏：星穹铁道 跃迁测试",
+    "provider": "米哈游",
+    "ad_text": "银河冒险RPG新旅程。全新五星角色卡池限时UP，签到领10连抽。跃迁之旅，即刻启程。",
+    "tab": "featured",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s228x228_jfs/t1/399547/3/19048/102098/69af8a94F5ef69418/00833203202dd117.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "星穹铁道新角色UP签到领10连抽",
+    "ai_tags": [{"value": "游戏", "category": "品类"}, {"value": "米哈游", "category": "品牌"}]
+  },
+  {
+    "title": "英雄联盟 双城之战 皮肤上新",
+    "provider": "腾讯游戏",
+    "ad_text": "双城之战第二季联动皮肤火热发售！蔚、金克丝全新神话级特效，参与活动免费领永久宝箱。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/164719/39/41324/55530/6788c212Fe259b7a8/90d5b19ae22d9330.jpg"],
+    "ad_video_audio": "https://jvod.300hu.com/vod/product/1570756018/21852/f12ec3c68756482a8ce595afd580712a.mp4",
+    "ai_summary": "英雄联盟双城之战联动皮肤发售参与领宝箱",
+    "ai_tags": [{"value": "游戏", "category": "品类"}, {"value": "腾讯", "category": "品牌"}]
+  },
+  {
+    "title": "无畏契约 冠军套 限时返场",
+    "provider": "腾讯游戏",
+    "ad_text": "经典冠军套装限时返场商城，击杀特效+音乐。超值点券折扣进行中，秀出你的神枪法。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s228x228_jfs/t1/427555/24/14206/108615/6a03d4beF68e80c6e/008332032005c37b.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "无畏契约冠军套装返场享点券折扣",
+    "ai_tags": [{"value": "游戏", "category": "品类"}, {"value": "腾讯", "category": "品牌"}]
+  },
+  {
+    "title": "王者荣耀 凤求凰 返场",
+    "provider": "腾讯游戏",
+    "ad_text": "李白-凤求凰、王昭君-凤凰于飞限定情侣皮肤抽奖返场。每日登录领免费抽奖券，不容错过。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s228x228_jfs/t1/180232/7/44828/77109/663352a8F716ae497/c5a8c756e4728b2d.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "王者荣耀凤求凰返场每日领免费抽奖券",
+    "ai_tags": [{"value": "游戏", "category": "品类"}, {"value": "腾讯", "category": "品牌"}]
+  },
+  {
+    "title": "和平精英 玛莎拉蒂 联动载具",
+    "provider": "腾讯游戏",
+    "ad_text": "全新载具皮肤玛莎拉蒂MC20震撼上线！极速引擎音效，三种炫酷配色。首充送载具币。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s228x228_jfs/t1/433933/7/5595/283540/6a01dd27Fd3893870/00835dc5dc599fb6.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "和平精英玛莎拉蒂联动载具上线首充送币",
+    "ai_tags": [{"value": "游戏", "category": "品类"}, {"value": "腾讯", "category": "品牌"}]
+  },
+  {
+    "title": "地下城与勇士 燃冬版本",
+    "provider": "腾讯游戏",
+    "ad_text": "全新110级团本开放，神话装备爆率翻倍。回归老玩家直升满级+一套毕业史诗，快叫上兄弟回归。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s228x228_jfs/t1/351727/18/16592/191847/6936b047Fff18d9a9/fbce26b9a9d50fad.jpg"],
+    "ad_video_audio": null,
+    "ai_summary": "DNF新团本开放回归直升满级送史诗",
+    "ai_tags": [{"value": "游戏", "category": "品类"}, {"value": "腾讯", "category": "品牌"}]
+  },
+  {
+    "title": "网易 蛋仔派对 赛季盲盒",
+    "provider": "网易游戏",
+    "ad_text": "全新太空赛季开启！绝版盲盒外观等你来抽。首充任意金额送专属动作及绝版表情包。",
+    "tab": "featured",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/261402/16/9212/139373/677cd4a5F847b3652/e5d75bc72e3829e0.jpg"],
+    "ad_video_audio": "https://jvod.300hu.com/vod/product/1785341825/21852/e5860ac1e21d414fa9af23de86f69938.mp4",
+    "ai_summary": "蛋仔派对太空赛季盲盒首充送动作",
+    "ai_tags": [{"value": "游戏", "category": "品类"}, {"value": "网易", "category": "品牌"}]
+  },
+  {
+    "title": "网易 逆水寒手游 泳装外观",
+    "provider": "网易游戏",
+    "ad_text": "夏日海滩派对开启，绝美泳装直售99元！不卖数值，只卖外观。万人同屏国风MMO，立即体验。",
+    "tab": "ecommerce",
+    "ad_images": ["https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/224094/29/22876/129736/669786f9F6d21b85a/557c3d99a4550a1b.png"],
+    "ad_video_audio": null,
+    "ai_summary": "逆水寒手游夏日泳装99元直售不卖数值",
+    "ai_tags": [{"value": "游戏", "category": "品类"}, {"value": "网易", "category": "品牌"}]
+  }
+]

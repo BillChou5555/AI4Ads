@@ -1,0 +1,55 @@
+[
+  {
+    "title": "Nike Air Max 270 春季新款跑鞋",
+    "provider": "Nike官方旗舰店",
+    "ad_text": "Air Max 270 采用全新气垫科技，提供极致缓震体验。透气网面鞋面搭配流线型设计，适合日常通勤和轻度运动。七种配色可选，限时8折优惠。",
+    "tab": "ecommerce",
+    "ad_images": [
+            "https://static.nike.com.cn/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/vfmeh7xyaktfbsi7tj1l/AIR+MAX+270.png",
+            "https://static.nike.com.cn/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/leclg0uokv7rhbskpy4k/AIR+MAX+270.png",
+            "https://static.nike.com.cn/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/663bef21-6d63-4d1c-a9bc-acda32d38e5e/AIR+MAX+270.png"
+    ],
+    "ad_video_audio": null,
+    "ai_summary": "Nike Air Max 270气垫跑鞋，极致缓震，七色可选限时8折",
+    "ai_tags": [
+      {"category": "品类", "value": "运动鞋"},
+      {"category": "品牌", "value": "Nike"},
+      {"category": "风格", "value": "运动休闲"},
+      {"category": "受众", "value": "运动爱好者"}
+    ]
+  },
+  {
+    "title": "海底捞火锅 双人欢聚套餐",
+    "provider": "海底捞",
+    "ad_text": "精品肥牛+鲜虾滑+招牌捞面，双人欢聚套餐仅需188元！全城20家门店通用，周末不加价。免费美甲、擦鞋服务等你体验。",
+    "tab": "local",
+    "ad_images": [
+      "https://picsum.photos/seed/haidilao1/400/600"
+    ],
+    "ai_summary": "海底捞双人火锅套餐188元，20家门店通用，周末不加价",
+    "ai_tags": [
+      {"category": "品类", "value": "火锅"},
+      {"category": "品牌", "value": "海底捞"},
+      {"category": "场景", "value": "聚餐约会"},
+      {"category": "风格", "value": "高性价比"}
+    ]
+  },
+  {
+    "title": "LEGO 乐高 兰博基尼 Sián 科技系列",
+    "provider": "LEGO官方旗舰店",
+    "ad_text": "3696颗粒，1:8比例还原兰博基尼Sián FKP 37。可动V12引擎、8速变速箱、可调尾翼。成人收藏级拼搭体验。",
+    "tab": "featured",
+    "ad_images": [
+      "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/263499/3/28432/19980/67c897caF7565d1cf/ebe9ea82e56f49bc.jpg",
+      "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/263591/13/28497/117281/67c897c9F85cd423e/da884760af1d95ee.jpg"
+    ],
+    "ad_video_audio": "https://storage.example.com/videos/lego_sian.mp4",
+    "ai_summary": "乐高兰博基尼Sián，3696颗粒，1:8比例还原，成人收藏级",
+    "ai_tags": [
+      {"category": "品类", "value": "积木玩具"},
+      {"category": "品牌", "value": "LEGO"},
+      {"category": "受众", "value": "收藏玩家"},
+      {"category": "风格", "value": "高端品质"}
+    ]
+  }
+]
