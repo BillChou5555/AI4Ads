@@ -110,7 +110,9 @@ class SearchFragment : Fragment() {
             onBookmarkClick = { ad -> toggleBookmark(ad) },
             onShareClick = { ad -> toggleShare(ad) }
         )
-        recyclerResults.layoutManager = LinearLayoutManager(requireContext())
+        recyclerResults.layoutManager = LinearLayoutManager(requireContext()).apply {
+            initialPrefetchItemCount = 4
+        }
         recyclerResults.adapter = feedAdapter.concatAdapter
 
         // 视频播放（复用 PlaybackManager）

@@ -10,7 +10,8 @@ import com.aiads.R
 import com.aiads.data.local.DatabaseHelper
 import com.aiads.data.model.Ad
 import com.bumptech.glide.Glide
-
+import com.bumptech.glide.Priority
+import com.bumptech.glide.load.engine.DiskCacheStrategy
 /**
  * 大图卡片 Adapter。
  *
@@ -55,6 +56,10 @@ class LargeImageCardAdapter(
             if (ad.adImages.isNotEmpty()){
                 Glide.with(ivMedia.context)
                     .load(ad.adImages[0])
+                    .priority(Priority.IMMEDIATE)
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .placeholder(R.drawable.placeholder_image)
+                    .error(R.drawable.placeholder_image)
                     .into(ivMedia)
             }
         }

@@ -6,6 +6,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.aiads.R
 import com.bumptech.glide.Glide
 import androidx.media3.ui.PlayerView
+import com.bumptech.glide.Priority
+import com.bumptech.glide.load.engine.DiskCacheStrategy
 
 /**
  * 详情页媒体 HorizontalViewPager2 的适配器。
@@ -47,8 +49,15 @@ class MediaPagerAdapter(
 class ImageViewHolder(parent: ViewGroup) : RecyclerView.ViewHolder(
     LayoutInflater.from(parent.context).inflate(R.layout.item_media_image, parent, false)
 ) {
+
     fun bind(imageUrl: String) {
-        Glide.with(itemView).load(imageUrl).into(itemView.findViewById(R.id.ivMedia))
+        Glide.with(itemView)
+            .load(imageUrl)
+            .priority(Priority.IMMEDIATE)
+            .diskCacheStrategy(DiskCacheStrategy.ALL)
+            .placeholder(R.drawable.placeholder_image)
+            .error(R.drawable.placeholder_image)
+            .into(itemView.findViewById(R.id.ivMedia))
     }
 }
 

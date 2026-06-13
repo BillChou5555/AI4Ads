@@ -166,7 +166,9 @@ class FeedTabFragment : Fragment() {
             }
         )
 
-        recyclerView.layoutManager = LinearLayoutManager(requireContext())
+        recyclerView.layoutManager = LinearLayoutManager(requireContext()).apply {
+            initialPrefetchItemCount = 4
+        }
         recyclerView.adapter = feedAdapter.concatAdapter
         playbackManager = PlaybackManager(playerPool, recyclerView)
         playbackManager.attach()

@@ -12,7 +12,8 @@ import com.aiads.data.model.Ad
 import com.bumptech.glide.Glide
 import androidx.media3.common.MediaItem
 import androidx.media3.exoplayer.ExoPlayer
-
+import com.bumptech.glide.Priority
+import com.bumptech.glide.load.engine.DiskCacheStrategy
 class VideoCardAdapter(
     private val onCardClick: (Ad) -> Unit,
     private val onTagClick: (String) -> Unit,
@@ -69,6 +70,10 @@ class VideoCardAdapter(
             if (ad.adImages.isNotEmpty()) {
                 Glide.with(ivVideoCover.context)
                     .load(ad.adImages[0])
+                    .priority(Priority.IMMEDIATE)
+                    .diskCacheStrategy(DiskCacheStrategy.ALL)
+                    .placeholder(R.drawable.placeholder_image)
+                    .error(R.drawable.placeholder_image)
                     .into(ivVideoCover)
             }
         }

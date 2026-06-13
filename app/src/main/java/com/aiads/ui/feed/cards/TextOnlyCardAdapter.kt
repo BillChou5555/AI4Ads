@@ -7,7 +7,8 @@ import androidx.recyclerview.widget.ListAdapter
 import com.aiads.R
 import com.aiads.data.local.DatabaseHelper
 import com.aiads.data.model.Ad
-
+import com.bumptech.glide.Priority
+import com.bumptech.glide.load.engine.DiskCacheStrategy
 class TextOnlyCardAdapter(
     private val onCardClick: (Ad) -> Unit,
     private val onTagClick: (String) -> Unit,
